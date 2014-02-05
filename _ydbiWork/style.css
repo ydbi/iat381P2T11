@@ -8,18 +8,17 @@ body {
 }
 
 h1, h2, h3 {
-	margin: 0;
-	padding: 0;
+	padding: 10px;
 	font-weight: normal;
 	color: #874854;
 }
 
 h1 {
-	font-size: 2em;
+	font-size: 2.5em;
 }
 
 h2 {
-	font-size: 2.8em;
+	font-size: 2em;
 }
 
 h3 {
@@ -40,7 +39,73 @@ a:hover {
 	font-weight: bold;
 }
 
-/* Menu */
+.wineTitle  { /* not sure if this is actually working */
+	padding:15px;
+	font-weight: bold;
+	text-align: center;
+	float: center;
+
+}
+
+.title  { /* not sure if this is actually working */
+	display: block;
+	padding:15px;
+	font-weight: bold;
+}
+
+/* MAIN CONTENT STUFF */
+.content {
+}
+
+.content img {
+	margin-left: 15px;
+	text-align: justify;
+}
+
+.content p {
+	margin-left: 15px;
+	line-height: normal;
+	text-align: justify;
+	color: #58585b;
+	font-size: 1em;
+}
+
+.content ul {
+	list-style: none;
+	line-height: normal;
+	text-align: left;
+}
+
+.content li {
+	display: block;
+	padding-bottom: 10px;
+}
+
+.content a {
+	padding-left: 30px;
+	float: center;
+	color: #874854;;
+}
+
+
+#main img  {
+	height: auto;
+	width: auto;
+	max-width: 100%;
+	float: center;	
+	margin-top: 10px;
+	margin-left: 200px;
+}
+
+/* SLIDES under main promotion img */
+.slides img {	
+}
+.slides a {	
+}
+.slides p {	
+}
+
+/* MENU */
 #menu {
 	height: 50px;
 }
@@ -69,29 +134,120 @@ a:hover {
 	border: none;
 }
 
-#menu a:hover {
+#menu a:hover, a:active {  /* active not working now */
 	font-weight: bold;
 	text-decoration: none;
-	color: #045FB4;
 }
 
+/* LOGO & log in stuff */
+#logo {
+	height: 40px; 
+	overflow: visible;
+}
+#logo ul {
+	list-style: none;
+	line-height: normal;
+	float: right;
+}
+#logo li {
+	font-size: 0.8em;
+	padding-bottom: 10px;
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: underline;
+	color: #58585b;
+}
+
+#logo a:hover {
+	font-weight: bold;
+}
+
+#logo img {
+	float: center;
+}
 
 /* FOOTER */
 #footer {
-	width: 1024px;
+	display: block;
 	height: 80px;
+	margin-top: 20px;
 	background-color:#874854;
 }
 
 #footer p {
-	margin: 0px;
-	padding-top:5px;
+	padding-top: 15px;
 	line-height: normal;
 	text-transform: lowercase;
 	text-align: center;
 	color: #fbf1de;
 }
 
-#logo {
-	
+/* Wine Pg Sidebar */
+#sideBar {
+	height: 650px; 
+	width: 250px;
+	display: block;
+	overflow: visible;
+	background-color:#d1d2d4;
+	opacity: 0.6; 
+	margin-left: 15px;
+}
+
+#sideBar a {
+	border: none;
+	text-decoration: underline;
+	color: #58585b;
+	font-weight: bold;
+}
+
+#sideBar a:hover {
+	border: none;
+	text-decoration: underline;
+	color: #1b75bb;
+}
+
+#sideBar ul {
+	list-style: none;
+	line-height: thin;
+	float: left;
+}
+
+#sideBar li {
+	display: inline-block;
+	padding-bottom: 10px;
+	padding-right: 8px;
+}
+
+#sideBar h4 {
+	font-size: 1.3em;
+	text-align: left;
+	padding-top: 15px;
+	padding-left:10px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.inputs{
+	padding-left: 15px;
+	padding-top: 20px;
+	font-size: 0.8em;
+}
+
+/* Buttons */
+#submit {
+	background-color: #874854;
+	color: #FFFFFF;
+	border: none;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 1.1em;
+}
+
+#submit:hover{
+	border: none;
+	background-color: #1b75bb;
+	color: #FFFFFF;
 }

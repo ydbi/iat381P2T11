@@ -7,8 +7,14 @@ body {
 	font-size: 16px;
 }
 
-h1, h2, h3 {
+h1, h2{
 	padding: 10px;
+	font-weight: normal;
+	color: #874854;
+}
+
+h3, h4 {
+	padding: 5px;
 	font-weight: normal;
 	color: #874854;
 }
@@ -25,6 +31,10 @@ h3 {
 	font-size: 1.6em;
 }
 
+h4 {
+	font-size: 1.2em;
+}
+
 p, ul, ol {
 	margin-top:0;
 	line-height: 150%;
@@ -36,7 +46,7 @@ a{
 
 a:hover {
 	text-decoration: none;
-	font-weight: bold;
+	color: #6b9eb4;
 }
 
 .wineTitle  { /* not sure if this is actually working */
@@ -48,8 +58,8 @@ a:hover {
 }
 
 .title  { /* not sure if this is actually working */
-	display: block;
-	padding:15px;
+	display: inline-block;
+	padding:10px;
 	font-weight: bold;
 }
 
@@ -82,60 +92,57 @@ a:hover {
 }
 
 .content a {
-	padding-left: 30px;
+	/* padding-left: 30px;*/
 	float: center;
 	color: #874854;;
 }
 
 
-#main img  {
-	height: auto;
-	width: auto;
-	max-width: 100%;
+#main a:hover img{
+	opacity: 0.5;
+	transition: all 0.4s ease-in 0s;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+}
+
+#main img  {  /* needs fixing*/
+	width: 90%;
 	float: center;	
-	margin-top: 10px;
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
-/* SLIDES under main promotion img */
-.slides img {	
-}
-.slides a {	
-}
-.slides p {	
+/* seasonal special on home pg */
+.seasonal img {
+	max-height:100%;
 }
 
-/* MENU */
-#menu {
-	height: 50px;
-}
-
-#menu ul {
-	list-style: none;
-	line-height: normal;
+.seasonal h4 {
 	text-align: center;
+	float:right;
 }
 
-#menu li {
+.seasonal p {
+	float:center;
+}
+
+
+/* NAV-MENU */
+nav a, nav a:visited {
+	width: 100%;
 	display: inline-block;
-	padding-bottom: 10px;
-}
-
-#menu a {
-	display: block;
-	padding: 0px 25px;
-	line-height: 50px;
 	text-decoration: none;
-	text-align: center;
 	text-transform: uppercase;
-	font-size: 1.5em;
-	font-weight: 300;
+	font-weight: bold;
 	color: #874854;
-	border: none;
 }
 
-#menu a:hover, a:active {  /* active not working now */
-	font-weight: bold;
-	text-decoration: none;
+nav a:hover, nav a:active {  /* active not working now */
+	color: #6b9eb4;
+	text-decoration: underline ;
 }
 
 /* LOGO & log in stuff */
@@ -161,7 +168,8 @@ a:hover {
 }
 
 #logo a:hover {
-	font-weight: bold;
+	font-weight: normal;
+	color: #6b9eb4;
 }
 
 #logo img {

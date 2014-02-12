@@ -1,4 +1,57 @@
+/* grid defining */
+
+[class*='col-'] {/* when class starts w/ col- is selected, do xxx  */
+	float:left; /* wrap around left */
+	padding: 0;
+	text-align: center;
+}
+
 .grid { 
-	width: 1000px; 
-	margin: 0 auto 50px auto;
+}
+
+*,*:after,*:before{ /* the * selects EVERYTHING */
+	-webkit-box-sizeing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+} 	/*for webkit wanna use border box: padding INSIDE border; */
+	/* content-box: padding OUTSIDE border; */
+
+.grid:after{
+	content:""; /*inject space to clear float*/
+	display: block;
+	clear: both; 
+}
+
+.col-1of4{
+	width: 20%;
+/* do width=100% in main.css nav tag */
+}
+
+
+@media (max-width: 735px) {
+	.col-1of4{
+		width: 30%;
+		padding-top: 5px;
+	}
+}
+
+@media (max-width: 581px) {
+	.col-1of4{
+		width: 100%; 
+		padding-top: 5px; 
+		border-style: solid;
+		border-width: 1px; 
+		border-color: #874854;
+	}
+}
+
+.col-1of3{
+	width: 33.33%;
+}
+
+@media (max-width: 730px) {
+	.col-1of3{
+		width: 100%;
+		padding-top: 5px;
+	}
 }

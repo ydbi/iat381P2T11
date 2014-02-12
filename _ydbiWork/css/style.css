@@ -14,7 +14,7 @@ h1, h2{
 }
 
 h3, h4 {
-	padding: 5px;
+	padding: 0px;
 	font-weight: normal;
 	color: #874854;
 }
@@ -50,10 +50,12 @@ a:hover {
 }
 
 .wineTitle  { /* not sure if this is actually working */
-	padding:15px;
+	width: 90%;
+	border-bottom: 1px solid #888888;
+	padding:10px;
+	display: block;
 	font-weight: bold;
 	text-align: center;
-	float: center;
 
 }
 
@@ -69,7 +71,6 @@ a:hover {
 
 .content img {
 	margin-left: 15px;
-	text-align: justify;
 }
 
 .content p {
@@ -116,23 +117,20 @@ a:hover {
 }
 
 /* seasonal special on home pg */
-.seasonal img {
+.seasonal .col-1of3 img {
 	max-height:100%;
+	display: inline-block;
 }
 
-.seasonal h4 {
-	text-align: center;
-	float:right;
-}
+.seasonal .col-1of3 h4, p {
 
-.seasonal p {
-	float:center;
+	float: center;
 }
 
 
 /* NAV-MENU */
 nav a, nav a:visited {
-	width: 100%;
+	padding:5px;
 	display: inline-block;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -142,7 +140,7 @@ nav a, nav a:visited {
 
 nav a:hover, nav a:active {  /* active not working now */
 	color: #6b9eb4;
-	text-decoration: underline ;
+	border: 1px solid #6b9eb4; 
 }
 
 /* LOGO & log in stuff */
@@ -194,13 +192,14 @@ nav a:hover, nav a:active {  /* active not working now */
 
 /* Wine Pg Sidebar */
 #sideBar {
-	height: 650px; 
-	width: 250px;
-	display: block;
+	width:250px;
+	max-height:750px;
+	display: inline-block;
 	overflow: visible;
 	background-color:#d1d2d4;
 	opacity: 0.6; 
 	margin-left: 15px;
+	margin-right: 30px;
 }
 
 #sideBar a {
@@ -210,32 +209,40 @@ nav a:hover, nav a:active {  /* active not working now */
 	font-weight: bold;
 }
 
-#sideBar a:hover {
+ #sideBar a:hover {
 	border: none;
 	text-decoration: underline;
 	color: #1b75bb;
 }
 
-#sideBar ul {
+ #sideBar ul {
 	list-style: none;
 	line-height: thin;
-	float: left;
+	float:left;
 }
 
-#sideBar li {
+ #sideBar li {
 	display: inline-block;
-	padding-bottom: 10px;
-	padding-right: 8px;
+	padding:9px;
+	float: left;	
 }
 
-#sideBar h4 {
-	font-size: 1.3em;
+ #sideBar h4 {
 	text-align: left;
 	padding-top: 15px;
 	padding-left:10px;
 	font-weight: bold;
 	text-transform: uppercase;
 }
+
+#winepg {
+	padding: 5px;
+	border-spacing: 5px;
+	border-style: solid;
+	border-color: #d1d2d4;
+	background-repeat: no-repeat;
+}
+
 
 .inputs{
 	padding-left: 15px;

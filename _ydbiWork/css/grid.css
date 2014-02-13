@@ -34,7 +34,7 @@
 @media (max-width: 735px) {
 	.col-1of4{
 		width: 30%;
-		padding-top: 5px;
+		padding-top: 0px;
 	}
 }
 
@@ -50,7 +50,13 @@
 
 .col-1of3{
 	width: 33.33%;
+	position: relative;
 }
+
+.col-2of3{
+	width: 66.66%;
+}
+
 
 @media (max-width: 830px) {
 	.col-1of3{

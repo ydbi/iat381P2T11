@@ -193,7 +193,7 @@ nav a:hover, nav a:active {  /* active not working now */
 /* Wine Pg Sidebar */
 #sideBar {
 	width:250px;
-	max-height:750px;
+	height:1000px;
 	display: inline-block;
 	overflow: visible;
 	background-color:#d1d2d4;
@@ -243,12 +243,33 @@ nav a:hover, nav a:active {  /* active not working now */
 	background-repeat: no-repeat;
 }
 
+#txtLike {
+	display: inline-block;
+	margin-top: 50px;
+	margin-bottom:5px;
+	font-weight: bold;
+	border-bottom: thin solid  #d1d2d4;
+}
+
+#userBox{
+	padding-bottom: 30%;
+	border-style: solid;
+	border-color: #d1d2d4;
+}
 
 .inputs{
+
 	padding-left: 15px;
 	padding-top: 20px;
 	font-size: 0.8em;
+	display: block;
 }
+
+.inputs label {
+	display:inline-block;
+	padding-right: 10px;
+}
+
 
 /* Buttons */
 #submit {
@@ -258,6 +279,23 @@ nav a:hover, nav a:active {  /* active not working now */
 	text-decoration: none;
 	border-radius: 5px;
 	font-size: 1.1em;
+}
+
+#login {
+	position:relative;
+	right: -150px;
+	background-color: #874854;
+	color: #FFFFFF;
+	border: none;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 1.1em;
+}
+
+#login:hover{
+	border: none;
+	background-color: #1b75bb;
+	color: #FFFFFF;
 }
 
 #submit:hover{

@@ -6,7 +6,10 @@
 	text-align: center;
 }
 
-.grid { 
+.grid {
+	width: 1200px; 
+	max-width: 100%; 
+	margin: 0 auto 50px auto;
 }
 
 *,*:after,*:before{ /* the * selects EVERYTHING */
@@ -55,3 +58,9 @@
 		padding-top: 5px;
 	}
 }
+
+.col-1of2{
+	width: 50%;
+}
+
+

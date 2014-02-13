@@ -124,7 +124,7 @@ a:hover {
 
 .seasonal .col-1of3 h4, p {
 
-	float: center;
+	text-align:left
 }
 
 
@@ -177,7 +177,7 @@ nav a:hover, nav a:active {  /* active not working now */
 /* FOOTER */
 #footer {
 	display: block;
-	height: 80px;
+	height: 120px;
 	margin-top: 20px;
 	background-color:#874854;
 }

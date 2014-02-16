@@ -95,7 +95,7 @@ a:hover {
 .content a {
 	/* padding-left: 30px;*/
 	float: center;
-	color: #874854;;
+	color: #874854;
 }
 
 
@@ -244,10 +244,11 @@ nav a:hover, nav a:active {  /* active not working now */
 }
 
 #txtLike {
-	display: inline-block;
-	margin-top: 50px;
-	margin-bottom:5px;
+	display: block;
+	margin-top: 30px;
+	margin-bottom:10px;
 	font-weight: bold;
+	padding-bottom: 0px;
 	border-bottom: thin solid  #d1d2d4;
 }
 
@@ -258,11 +259,9 @@ nav a:hover, nav a:active {  /* active not working now */
 }
 
 .inputs{
-
 	padding-left: 15px;
 	padding-top: 20px;
-	font-size: 0.8em;
-	display: block;
+	display: inline-block;
 }
 
 .inputs label {
@@ -270,8 +269,49 @@ nav a:hover, nav a:active {  /* active not working now */
 	padding-right: 10px;
 }
 
+.login label{
+	display:inline-block;
+	float: center;
+	text-align: left;
+}
+
+label {
+	font-weight: bold;
+	font-size: 0.8em;
+	margin-top: 7px; /* NOT WORKING */
+	display: inline-block;
+}
 
 /* Buttons */
+button {
+	display: inline-block;
+	background-color: #874854;
+	color: #FFFFFF;
+	border: none;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 1.1em;
+	float: right;
+	margin-top: 20px;
+}
+
+button.view{
+	background-color: #874854;
+	color: #FFFFFF;
+	border: none;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 1em;
+	float: right;
+	margin-top: 7px;
+}
+
+button:hover {
+	border: none;
+	background-color: #1b75bb;
+	color: #FFFFFF;
+}
+
 #submit {
 	background-color: #874854;
 	color: #FFFFFF;
@@ -280,6 +320,13 @@ nav a:hover, nav a:active {  /* active not working now */
 	border-radius: 5px;
 	font-size: 1.1em;
 }
+
+#submit:hover{
+	border: none;
+	background-color: #1b75bb;
+	color: #FFFFFF;
+}
+
 
 #login {
 	position:relative;
@@ -298,8 +345,63 @@ nav a:hover, nav a:active {  /* active not working now */
 	color: #FFFFFF;
 }
 
-#submit:hover{
+.col-1of2 a{
+	text-decoration: none;
 	border: none;
-	background-color: #1b75bb;
-	color: #FFFFFF;
+	background: none;
+	color: #58585b; 
+	font-size:0.9em;
+	text-align: left;
+	display: block;
+	margin-bottom: 15px;
 }
+
+.col-1of2 a:hover{
+	font-weight: normal;
+	color: #6b9eb4;
+}
+
+.col-1of2 p{
+	float: left;
+	margin-bottom:5px;
+}
+
+.individual p{
+	text-align: left;
+	float: center;
+	display: block;
+	margin-left: 25px;
+}
+
+.individual a{
+	text-align: left;
+	display: block;
+}
+
+.individual form{
+	display: inline-block;
+}
+
+.individual label{
+	margin-right: 10px;
+	font-size: 0.9em;
+	display: inline-block;
+	float: center;
+}
+
+.individual #btnIndi{
+	display: inline-block;
+	text-align: center;
+	float: right;
+	margin-top:15px;
+}
+
+.individual #btnIndi button{
+	margin-right:15px;
+}
+
+.individual img{
+	margin:15px;
+	max-width:100%;
+}
+

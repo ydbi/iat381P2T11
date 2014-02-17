@@ -52,15 +52,16 @@ a:hover {
 .wineTitle  { /* not sure if this is actually working */
 	width: 90%;
 	border-bottom: 1px solid #888888;
-	padding:10px;
 	display: block;
+	margin-top: 0px;
 	font-weight: bold;
 	text-align: center;
 
 }
 
 .title  { /* not sure if this is actually working */
-	display: inline-block;
+	display: block;
+	text-align: left;
 	padding:10px;
 	font-weight: bold;
 }
@@ -171,7 +172,13 @@ nav a:hover, nav a:active {  /* active not working now */
 }
 
 #logo img {
-	float: center;
+	opacity: 0.7;
+	float: left;
+	display: inline-block;
+}
+
+#logo img:hover {
+	opacity: 1;
 }
 
 /* FOOTER */
@@ -343,6 +350,10 @@ button:hover {
 	border: none;
 	background-color: #1b75bb;
 	color: #FFFFFF;
+}
+
+#login img{
+	border: none;
 }
 
 .col-1of2 a{

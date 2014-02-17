@@ -1,0 +1,109 @@
+<!doctype html>
+<html> 
+	<head>
+		<meta charset="utf-8">
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+		<link href="css/grid.css" rel="stylesheet" type="text/css" media="screen" />
+		<link href="css/cart.css" rel="stylesheet" type="text/css" media="screen" />
+		<title>cart</title>
+	</head>
+	<body>
+		<div class = "grid">
+
+			<header id="top">
+				<h1> Winity </h1>
+				<div id="logo">
+					<ul>
+						<li><a href="log.html">Log in/Register</a></li>
+						<li><a href="guest.html">Guest order check</a></li>
+					</ul>
+
+				</div>
+			</header>
+
+			<nav class = "grid">
+				<div id ="menu" class="col-1of4">
+					<a href="index.html">Home</a></li>
+				</div>
+
+				<div id ="menu" class="col-1of4">
+					<a href="wine.html">Our Wine</a></li> 
+				</div>
+
+				<div id ="menu" class="col-1of4">
+					<a href="about.html">About</a></li>
+				</div>
+				
+				<div  id ="menu" class="col-1of4">
+					<a href="contact.html">Contact</a></li>
+				</div>
+				
+			</nav>
+
+
+			<!-- detail product lists top 2 -->
+			<div class="checkout">
+				<div class="col-2of3">
+					<h4 class="title">Shopping Cart</h4>
+					<div class="cartItem">
+						<img src="imgs/red1.png" height="430"/>
+					</div>
+					<div class="itemName"></div>
+						<h4>Wine Title Test</h4>					
+
+						<form method="post" action="" id="addWine">
+							<input type="text" size="3" name="qty" placeholder="0">
+							<label for="qty" form="addWine">$60/bottle</label>
+							<input type="text" size="3" name="qty" placeholder="0">
+							<label for="qty" form="addWine">$240/case</label>						
+							<div id="btnIndi"> 
+								<button type="submit" name="out"> Checkout</button>
+								<button type="submit" name="addCart" onclick="alert('Wine added in your cart!')"> Add to Cart</button>
+								
+							</div>
+						</form>
+				</div> <!--end of col-1of2-->
+
+			</div><!--end of individual-->
+										
+							
+			
+
+
+
+				<div class="content">
+					<p> </p>
+				</div>
+		</div><!--end of grid class-->
+
+
+
+
+
+		<div id ="footer">
+			<p>	some contact and copy right info </p> 
+		</div><!--end of footer-->
+
+
+
+
+	</body>
+</html>
+
+<!--
+
+		<form method="post" action="#" id="cmt">
+
+			<label for="formname">Name</label>
+			<input type="text" id="formname" name="formname" placeholder="Jane Doe">
+
+			<label for="formsubject">Subject</label>
+			<input type="text" id="formsubject" name="formsubject" placeholder="A title">
+
+			<label for="formcmt">Comment</label>
+			<textarea id="formcmt" name="formcmt" placeholder="Place cmt here"></textarea>
+
+			<input type="submit" value="submit">
+
+		</form>
+	-->

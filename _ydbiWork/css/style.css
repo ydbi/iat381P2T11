@@ -52,7 +52,7 @@ a:hover {
 }
 
 .wineTitle  { /* not sure if this is actually working */
-	width: 90%;
+	width: 100%;
 	border-bottom: 1px solid #888888;
 	display: block;
 	margin-top: 0px;
@@ -116,9 +116,9 @@ a:hover {
 }
 
 #main img  {  /* needs fixing*/
-	width: 90%;
+	width: 100%;
 	float: center;	
-	margin-left: 50px;
+/*	margin-left: 50px;*/
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
@@ -212,8 +212,9 @@ nav a:hover, nav a:active {  /* active not working now */
 
 /* Wine Pg Sidebar */
 #sideBar {
-	width:250px;
-	height:1000px;
+	max-width:300px;
+	min-width:100px;
+	height:1100px;
 	display: inline-block;
 	overflow: visible;
 	background-color:#d1d2d4;

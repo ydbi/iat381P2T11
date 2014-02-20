@@ -150,7 +150,8 @@ nav a:hover, nav a:active {  /* active not working now */
 
 /* LOGO & log in stuff */
 #logo {
-	height: 40px; 
+	padding-top: 100px;
+	height: 50px; 
 	overflow: visible;
 }
 #logo ul {
@@ -175,13 +176,19 @@ nav a:hover, nav a:active {  /* active not working now */
 	color: #6b9eb4;
 }
 
-#logo img {
+#scart img {
+	display: block;
+	clear: both;
+	width: 50px;
 	opacity: 0.7;
-	float: left;
-	display: inline-block;
+	position: relative;
+	float: right;
+	position: relative;
+	right: 10em;
+	/*display: inline-block;*/
 }
 
-#logo img:hover {
+#scart img:hover {
 	opacity: 1;
 }
 

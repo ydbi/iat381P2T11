@@ -20,6 +20,8 @@ h3, h4 {
 }
 
 h1 {
+	position: relative;
+	left: 35px;
 	font-size: 2.5em;
 }
 

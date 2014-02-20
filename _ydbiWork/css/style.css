@@ -67,11 +67,15 @@ a:hover {
 }
 
 /* MAIN CONTENT STUFF */
-.content {
+.content .inputs{
+	float: left;
 }
 
 .content img {
-	margin-left: 15px;
+	max-height: 95%;
+	float: left;
+	position: relative;
+	left: 15px;
 }
 
 .content p {
@@ -266,14 +270,16 @@ nav a:hover, nav a:active {  /* active not working now */
 }
 
 .inputs{
-	padding-left: 15px;
+	position: relative;
+	left: 15px;
+	float: left;
 	padding-top: 20px;
 	display: inline-block;
 }
 
 .inputs label {
 	display:inline-block;
-	padding-right: 10px;
+	margin-right: 10px;
 }
 
 .login label{
@@ -356,6 +362,7 @@ button:hover {
 	border: none;
 }
 
+/* col stuff */
 .col-1of2 a{
 	text-decoration: none;
 	border: none;
@@ -377,6 +384,19 @@ button:hover {
 	margin-bottom:5px;
 }
 
+.guest label{
+	margin-right: 10px;
+	font-size: 1em;
+	font-weight: bold;
+	color: #58585b;
+}
+
+.guest h4{
+	position: relative;
+	left: -180px;
+}
+
+/* individual pages */
 .individual p{
 	text-align: left;
 	float: center;
@@ -415,4 +435,5 @@ button:hover {
 	margin:15px;
 	max-width:100%;
 }
+
 

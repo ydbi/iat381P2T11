@@ -69,4 +69,11 @@
 	width: 50%;
 }
 
+@media (max-width: 700px) {
+	.col-1of2{
+		width: 100%;
+		padding-top: 5px;
+	}
+}
+
 

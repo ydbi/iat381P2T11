@@ -8,7 +8,7 @@ body {
 }
 
 h1, h2{
-	padding: 10px;
+/*	padding: 10px;*/
 	font-weight: normal;
 	color: #874854;
 }
@@ -37,6 +37,11 @@ h4 {
 	font-size: 1.2em;
 }
 
+h5{
+	color: #874854;
+	font-size: 1em;
+}
+
 p, ul, ol {
 	margin-top:0;
 	line-height: 150%;
@@ -51,14 +56,13 @@ a:hover {
 	color: #6b9eb4;
 }
 
-.wineTitle  { /* not sure if this is actually working */
+.wineTitle{ /* not sure if this is actually working */
 	width: 100%;
-	border-bottom: 1px solid #888888;
+	border-bottom: 1px solid #B8B8B8  ;
 	display: block;
-	margin-top: 0px;
+	margin-top: 10px;
 	font-weight: bold;
 	text-align: center;
-
 }
 
 .title  { /* not sure if this is actually working */
@@ -134,10 +138,16 @@ a:hover {
 	text-align:left
 }
 
-
+#top{
+	padding-left: 50px;
+	margin-bottom: 0px;
+}
 /* NAV-MENU */
+.menu{
+}
+
 nav a, nav a:visited {
-	padding:5px;
+	padding:3px;
 	display: inline-block;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -150,11 +160,28 @@ nav a:hover, nav a:active {  /* active not working now */
 	border: 1px solid #6b9eb4; 
 }
 
+#ToggleBar{
+	display: none;
+	background:#874854;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #E8E8E8;
+	text-align: center;
+	padding: 0.7em 2em;
+	text-decoration: none;
+}
+
+#ToggleBar:hover{
+	opacity: 0.5;
+	transition: background-color 1s;
+	-webkit-transition: background-color 1s;
+}
+
 /* LOGO & log in stuff */
 #logo {
-	padding-top: 100px;
-	height: 50px; 
 	overflow: visible;
+	position: relative;
+	left: 50px;
 }
 #logo ul {
 	list-style: none;
@@ -186,7 +213,8 @@ nav a:hover, nav a:active {  /* active not working now */
 	position: relative;
 	float: right;
 	position: relative;
-	right: 10em;
+	bottom:0.5em;
+	right: 10.3em;
 	/*display: inline-block;*/
 }
 
@@ -212,18 +240,18 @@ nav a:hover, nav a:active {  /* active not working now */
 
 /* Wine Pg Sidebar */
 #sideBar {
-	max-width:300px;
-	min-width:100px;
-	height:1100px;
-	display: inline-block;
-	overflow: visible;
-	background-color:#d1d2d4;
-	opacity: 0.6; 
-	margin-left: 15px;
-	margin-right: 30px;
+	max-width:100%;
+	min-width: 20%;
+	display: block;
+	text-align: center;
+	background: rgba(209, 210, 212, 0.5);
+	opacity: 0.8;
+	margin-left: 0px;
+	margin-bottom: 20px;
 }
 
 #sideBar a {
+	font-size: 0.9em;
 	border: none;
 	text-decoration: underline;
 	color: #58585b;
@@ -239,35 +267,34 @@ nav a:hover, nav a:active {  /* active not working now */
  #sideBar ul {
 	list-style: none;
 	line-height: thin;
-	float:left;
-}
+	text-align: right;
+	}
 
  #sideBar li {
-	display: inline-block;
-	padding:9px;
-	float: left;	
+	display: block;
+	padding: 2px;
 }
 
- #sideBar h4 {
-	text-align: left;
-	padding-top: 15px;
-	padding-left:10px;
+ #sideBar h5 {
+ 	margin-top: 15px;
+ 	margin-bottom:5px;
+	text-align: right;
 	font-weight: bold;
 	text-transform: uppercase;
 }
 
 #winepg {
+	margin: 3px;
+	margin-top: 10px;
 	padding: 5px;
 	border-spacing: 5px;
-	border-style: solid;
-	border-color: #d1d2d4;
-	background-repeat: no-repeat;
+	background: rgba(209, 210, 212, 0.3);
 }
 
 #txtLike {
 	display: block;
-	margin-top: 30px;
-	margin-bottom:10px;
+	margin-top: 50px;
+	margin-bottom:5px;
 	font-weight: bold;
 	padding-bottom: 0px;
 	border-bottom: thin solid  #d1d2d4;

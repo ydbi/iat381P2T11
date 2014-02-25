@@ -9,7 +9,7 @@
 .grid {
 	width: 1200px; 
 	max-width: 100%; 
-	margin: 0 auto 50px auto;
+	margin: 0 auto 5px auto;
 }
 
 *,*:after,*:before{ /* the * selects EVERYTHING */
@@ -23,6 +23,16 @@
 	content:""; /*inject space to clear float*/
 	display: block;
 	clear: both; 
+}
+
+.col-1of1{
+	width: 100%;
+/* do width=100% in main.css nav tag */
+}
+
+.col-1of4T{
+	width: 22%;
+/* do width=100% in main.css nav tag */
 }
 
 .col-1of4{
@@ -49,7 +59,7 @@
 }
 
 .col-1of3{
-	width: 33.33%;
+	width: 32.70%;
 
 }
 

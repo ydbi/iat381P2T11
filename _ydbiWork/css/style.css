@@ -14,7 +14,6 @@ h1, h2{
 }
 
 h3, h4 {
-	padding: 0px;
 	font-weight: normal;
 	color: #874854;
 }
@@ -65,10 +64,11 @@ a:hover {
 	text-align: center;
 }
 
-.title  { /* not sure if this is actually working */
+.title  { 
 	display: block;
 	text-align: left;
-	padding:10px;
+	margin:0px;
+	padding-left: 85px; /* 35+50 */
 	font-weight: bold;
 }
 
@@ -77,15 +77,23 @@ a:hover {
 	float: left;
 }
 
+.content h4{
+	text-align: left;
+	padding-left: 85px;
+	margin-bottom: 10px;
+}
+
 .content img {
-	max-height: 95%;
+	max-height: 100%;
+	max-width: 100%;
 	float: left;
 	position: relative;
-	left: 15px;
+	left: 70px;
 }
 
 .content p {
-	margin-left: 15px;
+	margin-left: 85px;
+	padding-bottom: 20px;
 	line-height: normal;
 	text-align: justify;
 	color: #58585b;

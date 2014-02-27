@@ -75,7 +75,14 @@ a:hover {
 
 /* MAIN CONTENT STUFF */
 .content .inputs{
-	float: left;
+	text-align: left;
+	margin-left: 70px;
+}
+
+.content .inputs button{
+	position: relative;
+	right:65px;
+	margin-top:10px;
 }
 
 .content h4{

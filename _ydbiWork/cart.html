@@ -45,39 +45,86 @@
 
 
 			<!-- detail product lists top 2 -->
-			<div class="checkout">
-				<div class="col-2of3">
-					<h4 class="title">Shopping Cart</h4>
-					<div class="cartItem">
-						<img src="imgs/red1.png" height="430"/>
-					</div>
-					<div class="itemName"></div>
-						<h4>Wine Title Test</h4>					
-
-						<form method="post" action="" id="addWine">
-							<input type="text" size="3" name="qty" placeholder="0">
-							<label for="qty" form="addWine">$60/bottle</label>
-							<input type="text" size="3" name="qty" placeholder="0">
-							<label for="qty" form="addWine">$240/case</label>						
-							<div id="btnIndi"> 
-								<button type="submit" name="out"> Checkout</button>
-								<button type="submit" name="addCart" onclick="alert('Wine added in your cart!')"> Add to Cart</button>
-								
-							</div>
-						</form>
-				</div> <!--end of col-1of2-->
-
-			</div><!--end of individual-->
-										
-							
+			<div class="col-1of1" >
+					<h3 class="pageTitle">Shopping Cart</h3> 
 			
+				<div class="col-1of2" id="cartItem">
+						<img src="imgs/red1.png" height="215"/>
+					<div id="cartTxt"> 
+						<h4>Cabernet Sauvignon - Hess Select 2011</h4>					
+					</div> <!--end of cartxt-->
+				</div>
 
+				<div class="col-1of2" id="cartItem">
+					<form method="post" action="" id="addWine">
+						<input type="text" size="3" name="qty" placeholder="1">
+						<label for="qty" form="addWine">$60/bottle</label>
+						<input type="text" size="3" name="qty" placeholder="0">
+						<label for="qty" form="addWine">$240/case</label>						
+						<div id="btnCart"> 
+							<button type="submit" name="out">Update</button>
+							<button type="submit" name="addCart">Remove</button>
+						</div>
+					</form>
+				</div>							
+			</div>	
+			<div class="col-1of1" id="dotLine"></div>
+
+			<div class="col-1of1" >
+				<div class="col-1of2" id="cartItem">
+						<img src="imgs/white2.png" height="215"/>
+					<div id="cartTxt"> 
+						<h4>TIKI Sauvignon Blanc 2009</h4>					
+					</div> <!--end of cartxt-->
+				</div>
+
+				<div class="col-1of2" id="cartItem">
+					<form method="post" action="" id="addWine">
+						<input type="text" size="3" name="qty" placeholder="1">
+						<label for="qty" form="addWine">$45/bottle</label>
+						<input type="text" size="3" name="qty" placeholder="0">
+						<label for="qty" form="addWine">$220/case</label>						
+						<div id="btnCart"> 
+							<button type="submit" name="out">Update</button>
+							<button type="submit" name="addCart">Remove</button>
+						</div>
+					</form>
+				</div>							
+			</div>	
+			<div class="col-1of1" id="dotLine"></div>
+
+		<!--subtotal-->
+			<div class="col-1of1" id="cartItem">
+				<div class="col-1of2" id="cartItem">
+				<ul>
+					<li><strong>SUB TOTAL: </strong></li>
+					<li><strong>SHIPPING: </strong></li>
+					<li id="dotLine"></li>
+					<li><strong>ORDER TOTAL: </strong></li>
+				</ul>
+				</div>
+				<div class="col-1of2" id="price">
+				<ul>
+					<li>$105 </li>
+					<li>$10.29 </li>
+					<li id="noLine"></li>
+					<li><strong>$115.29</strong></li>
+				</ul>
+				</div>
+
+				<div id="btnCart"> 
+					<form method="post">
+						<button type="submit" name="addCart" formaction="wine.html">checkout</button>
+						<button type="submit" name="out" formaction="wine.html">continue shopping </button>
+					</form>
+				</div>
+			</div>							
 
 
 				<div class="content">
 					<p> </p>
 				</div>
-		</div><!--end of grid class-->
+		</div><!--end of grid total-->
 
 
 

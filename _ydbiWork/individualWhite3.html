@@ -19,10 +19,11 @@
 						<li><a href="log.html">Log in/Register</a></li>
 						<li><a href="guest.html">Guest order check</a></li>
 					</ul>
+
 				</div>
 				
 			<!--menu-->
-			<nav class = "menu">
+			<nav class = "grid">
 <!-- 				<header id="top">
 					<h1> Winity </h1>
 				</header> -->
@@ -41,8 +42,7 @@
 					<a href="contact.html">Contact</a></li>
 				</div>
 			</nav>
-
-			<!-- types  -->
+<!-- types  -->
 			<div class="col-1of1" id="sideBar">
 					<div class="col-1of4T">
 						<h5>BY PRICE</h5>
@@ -82,135 +82,42 @@
 						</ul>
 				</div>
 			</div>
-
+<!-- END OF types  -->
 
 			<!-- detail product lists top 2 -->
-			<div class="col-1of1"><h3 class="pageTitle"> New Arrivals</h3></div>
-			<a href="#top" class="col-1of1" id="ToggleBar">Categories</a>
-				<div class="col-1of3" id="winepg">
-					<div class="col-1of2">
-						<img src="imgs/red1.png" height="350"/>
-				    </div><!--end of col-1of2-->
-					<div class="col-1of2">
-						<h4>Cabernet Sauvignon - Hess Select 2011</h4>
-						<p>Showing jammy dark fruit aromas with cedary barrel notes and a touch of spice.</p>
-						<a href="IndividualRed1.html">View More>></a>
-
-						<form method="post" action="" id="addWine">
-							<input type="text" size="3" name="qty" placeholder="0">
-							<label for="qty" form="addWine">$60/bottle</label>
-							<input type="text" size="3" name="qty" placeholder="0">
-							<label for="qty" form="addWine">$240/case</label>						
-
-							<button type="submit" name="addCart" onclick="alert('Wine added in your cart!')"> Add to Cart</button>
-						</form>
-					</div><!--end of col-1of2-->
-				</div><!--end of col-1of-->
-
-				<div class="col-1of3" id="winepg">
+			<div class="individual">
 				<div class="col-1of2">
-						<img src="imgs/rose.png" height="350"/>
-				    </div><!--end of col-1of2-->
-					<div class="col-1of2">
-					<h4>Calliope Rosé 2010</h4>
-						<p>Bright aromas of sun-warmed red berries, stone fruit, floral notes and savoury dried herbs.</p>
-						<a href="IndividualRose.html">View More>></a>
-
-						<form method="post" action="" id="addWine">
-							<input type="text" size="3" name="qty" placeholder="0">
-							<label for="qty" form="addWine">$60/bottle</label>
-							<input type="text" size="3" name="qty" placeholder="0">
-							<label for="qty" form="addWine">$240/case</label>						
-
-							<button type="submit" name="addCart" onclick="alert('Wine added in your cart!')"> Add to Cart</button>
-						</form>
-
-					</div><!--end of col-1of2-->			
+					<img src="imgs/white3.png" height="500"/>
 				</div>
-						
-
-		<!-- detail product lists top4 -->
-		
-				<div class="col-1of3" id="winepg">
-					<div class="col-1of2">
-						<img src="imgs/white2.png" height="350"/>
-				    </div><!--end of col-1of2-->
-					<div class="col-1of2">
-						<h4>TIKI Sauvignon Blanc 2009</h4>
-						<p> Reserve is a beautifully crafted wine and a classic expression of the Marlborough style. </p>
-							<a href="IndividualWhite2.html">View More>></a>
-									
+	
+				<div class="col-1of2">
+						<h4>Calliope Sauvignon Blanc 2011  </h4>
+						<p>This wine starts with intriguing aromas of lemon, chalk, sugar snap peas along with ripe tropical mango, passion fruit and banana. The palate is dry, racy and fresh with crisp minerality and chalky acidity and flavours of lemon, nectarine, gooseberry, green melon and a long, savoury, dry finish. The racy intensity of this wine will be perfect with fresh goats cheese salads or spring salmon sautéed in lemon and garlic butter.</p>
+						<ul>
+							<li><strong>Country:</strong>  Canada</li>
+							<li><strong>Volumne:</strong> 750ml</li>
+							<li><strong>Analysis:</strong></li>
+							<li>Alcohol 12.7%</li>
+							<li> pH 2.4</li> 
+							<li>Titratable acidity 5 g/L</li>
+						</ul>
 						<form method="post" action="" id="addWine">
 							<input type="text" size="3" name="qty" placeholder="0">
-							<label for="qty" form="addWine">$60/bottle</label>
+							<label for="qty" form="addWine">$25.99/bottle</label>
 							<input type="text" size="3" name="qty" placeholder="0">
-							<label for="qty" form="addWine">$240/case</label>						
-
-							<button type="submit" name="addCart" onclick="alert('Wine added in your cart!')"> Add to Cart</button>
+							<label for="qty" form="addWine">$160/case</label>						
+							<div id="btnIndi"> 
+								<button type="submit" name="out" formaction="cart.html"> Checkout</button>
+								<button type="submit" name="addCart" onclick="alert('Wine added in your cart!')"> Add to Cart</button>
+								
+							</div>
 						</form>
-					</div>
-				</div><!--end of col-1of3-->
-						
-				<div class="col-1of3" id="winepg">
-					<div class="col-1of2">
-						<img src="imgs/red3.png" height="350"/>
-				    </div><!--end of col-1of2-->
-					<div class="col-1of2">
-						<h4>Rosso di Torgiano</h4>
-						<p>A red with balanced body and a fine ruby colour. Its aromas are typically spicy and consist of pepper and sweet tobacco.</p>
-						<a href="IndividualRed3.html">View More>></a>
+				</div> <!--end of col-1of2-->
 
-						<form method="post" action="" id="addWine">
-							<input type="text" size="3" name="qty" placeholder="0">
-							<label for="qty" form="addWine">$60/bottle</label>
-							<input type="text" size="3" name="qty" placeholder="0">
-							<label for="qty" form="addWine">$240/case</label>						
-							<button type="submit" name="addCart" onclick="alert('Wine added in your cart!')"> Add to Cart</button>
-						</form>
-					</div><!--end of col-1of2-->				
-				</div> <!--end of 1of3-->
-
-				<div class="col-1of3" id="winepg">
-					<div class="col-1of2">
-						<img src="imgs/white3.png" height="350"/>
-				    </div><!--end of col-1of2-->
-					<div class="col-1of2">
-							<h4>WCalliope Sauvignon Blanc 2011 </h4>
-							<p> Lemon, chalk, sugar snap peas along with ripe tropical mango and passionfruit.</p>
-							<a href="IndividualWhite3.html">View More>></a>
-									
-						<form method="post" action="" id="addWine">
-							<input type="text" size="3" name="qty" placeholder="0">
-							<label for="qty" form="addWine">$60/bottle</label>
-							<input type="text" size="3" name="qty" placeholder="0">
-							<label for="qty" form="addWine">$240/case</label>						
-
-							<button type="submit" name="addCart" onclick="alert('Wine added in your cart!')"> Add to Cart</button>
-						</form>
-					</div>
-				</div><!--end of col-1of3-->
-
-				<div class="col-1of3" id="winepg">
-					<div class="col-1of2">
-						<img src="imgs/red2.png" height="350"/>
-				    </div><!--end of col-1of2-->
-					<div class="col-1of2">
-						<h4>Fog Mountain Merlot 2010</h4>
-						<p>Dark ruby in color with aromas reminiscent of raspberry jam with hints of lightly toasted oak.</p>
-						<a href="IndividualRed2.html">View More>></a>
-
-						<form method="post" action="" id="addWine">
-							<input type="text" size="3" name="qty" placeholder="0">
-							<label for="qty" form="addWine">$60/bottle</label>
-							<input type="text" size="3" name="qty" placeholder="0">
-							<label for="qty" form="addWine">$240/case</label>						
-
-							<button type="submit" name="addCart" onclick="alert('Wine added in your cart!')"> Add to Cart</button>
-						</form>
-					</div><!--end of col-1of2-->			
-				</div>
-				
-				<!--YOU MAY ALSO LIKE-->				
+			</div><!--end of individual-->
+										
+							
+							<!--YOU MAY ALSO LIKE-->				
 				<div class="col-1of1" id="alsoLike">
 				<div id="txtLike"><p>YOU MAY ALSO LIKE</p></div>
 					<div class="col-1of4"> 
@@ -295,8 +202,7 @@
 
 
 
-    <script src="js/jQuery.js"></script>
-    <script src="js/ui.js"></script>
+
 	</body>
 </html>
 

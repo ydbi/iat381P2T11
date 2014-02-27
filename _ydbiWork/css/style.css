@@ -44,6 +44,7 @@ h5{
 p, ul, ol {
 	margin-top:0;
 	line-height: 150%;
+	color: #686868 ;
 }
 
 a{ 
@@ -80,8 +81,8 @@ a:hover {
 .content h4{
 	text-align: left;
 	padding-left: 85px;
+	margin-top:0px;
 	margin-bottom: 10px;
-	padding-top: 50px;
 }
 
 .content img {
@@ -89,7 +90,7 @@ a:hover {
 	max-width: 100%;
 	float: left;
 	position: relative;
-	left: 70px;
+	left: 50px;
 }
 
 .content p {
@@ -142,13 +143,25 @@ a:hover {
 }
 
 .seasonal .col-1of3 h4, p {
+	text-align:left;
+	margin-bottom:15px;
+}
 
-	text-align:left
+.col-1of2 h4, p {
+	text-align:left;
+	margin-bottom:15px;
 }
 
 #top{
 	padding-left: 50px;
 	margin-bottom: 0px;
+}
+
+#alsoLike p{
+	font-size: 0.7em;
+}
+#alsoLike h4{
+	font-size: 1em;
 }
 /* NAV-MENU */
 .menu{
@@ -309,7 +322,8 @@ nav a:hover, nav a:active {  /* active not working now */
 	background: rgba(209, 210, 212, 0.3);
 }
 
-#txtLike {
+#txtLike p {
+	font-size: 0.9em;
 	display: block;
 	margin-top: 50px;
 	margin-bottom:5px;
@@ -371,7 +385,7 @@ button.view{
 	border-radius: 5px;
 	font-size: 1em;
 	float: right;
-	margin-top: 7px;
+	margin-top: 20px;
 }
 
 button:hover {
@@ -436,7 +450,7 @@ button:hover {
 
 .col-1of2 p{
 	float: left;
-	margin-bottom:5px;
+	margin-bottom:10px;
 }
 
 .guest label{
@@ -452,11 +466,21 @@ button:hover {
 }
 
 /* individual pages */
+.individual ul{
+	padding: 0px;
+	margin-bottom:15px;
+	list-style: none;
+	text-align: left;
+}
+
+.individual li{
+	text-align: left;
+}
+
 .individual p{
 	text-align: left;
 	float: center;
 	display: block;
-	margin-left: 25px;
 }
 
 .individual a{
@@ -466,6 +490,7 @@ button:hover {
 
 .individual form{
 	display: inline-block;
+	text-align: left;
 }
 
 .individual label{
@@ -479,7 +504,7 @@ button:hover {
 	display: inline-block;
 	text-align: center;
 	float: right;
-	margin-top:15px;
+	margin-top:10px;
 }
 
 .individual #btnIndi button{
@@ -489,6 +514,44 @@ button:hover {
 .individual img{
 	margin:15px;
 	max-width:100%;
+}
+
+#cartItem img{
+	float:left;
+	margin-left:80px;
+	margin-right: 40px;
+}
+
+#cartItem form{
+	margin-top:140px;
+	float: right;
+}
+
+#btnCart button{
+	float: right;
+	margin-top:21px;
+}
+#btnCart form{
+	padding:0px;
+	margin:0px;
+}
+
+#cartItem ul{
+	list-style: none;
+	text-align: left;
+	float: right;
+}
+
+#dotLine{
+	margin-top:20px;
+	margin-bottom: 20px;
+	border-bottom: 1px dotted #B8B8B8;
+}
+
+#noLine{
+	margin-top:20px;
+	margin-bottom: 20px;
+	border-bottom: 1px dotted #fbf1de;
 }
 
 

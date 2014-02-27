@@ -19,11 +19,10 @@
 						<li><a href="log.html">Log in/Register</a></li>
 						<li><a href="guest.html">Guest order check</a></li>
 					</ul>
-
 				</div>
 				
 			<!--menu-->
-			<nav class = "grid">
+			<nav class = "menu">
 <!-- 				<header id="top">
 					<h1> Winity </h1>
 				</header> -->
@@ -44,48 +43,57 @@
 			</nav>
 
 			<!-- types  -->
-				<div class="col-1of3" id="sideBar">
-					<h4>BY PRICE</h4>
-					<ul>
-						<li><a href="0-19.html">$0-19.99</a></li>
-						<li><a href="20-49.html">$20-49.99</a></li>
-						<li><a href="50-99.html">$50-99.99</a></li>
-						<li><a href="100.html">$100 and up</a></li>
-					</ul>
+			<div class="col-1of1" id="sideBar">
+					<div class="col-1of4T">
+						<h5>BY PRICE</h5>
+						<ul>
+							<li><a href="0-19.html">$0-19.99</a></li>
+							<li><a href="20-49.html">$20-49.99</a></li>
+							<li><a href="50-99.html">$50-99.99</a></li>
+							<li><a href="100.html">$100 and up</a></li>
+						</ul>
+					</div>
 
-					<h4>BY TYPE</h4>
-					<ul>
-						<li><a href="red.html">Red</a></li>
-						<li><a href="rose.html">Rose</a></li>
-						<li><a href="white.html">White</a></li>
-						<li><a href="sparkling.html">Sparkling</a></li>
-					</ul>
+					<div class="col-1of4T">
+						<h5>BY TYPE</h5>
+						<ul>
+							<li><a href="red.html">Red</a></li>
+							<li><a href="rose.html">Rose</a></li>
+							<li><a href="white.html">White</a></li>
+							<li><a href="sparkling.html">Sparkling</a></li>
+						</ul>
+					</div>
 
-					<h4>BY REGION</h4>
-					<ul>
-						<li><a href="argen.html">Argentina</a></li>
-						<li><a href="france.html">France</a></li>
-						<li><a href="italy.html">Italy</a></li>
-						<li><a href="span.html">Span</a></li>
-					</ul>
+					<div class="col-1of4T">
+						<h5>BY REGION</h5>
+						<ul>
+							<li><a href="argen.html">Argentina</a></li>
+							<li><a href="france.html">France</a></li>
+							<li><a href="italy.html">Italy</a></li>
+							<li><a href="span.html">Span</a></li>
+						</ul>
+					</div>
 
-					<h4>ON SALE</h4>
-					<ul>
-						<li><a href="gift.html">Gift Packages</a></li>
-						<li><a href="glass.html">Glassware</a></li>
-					</ul>
+					<div class="col-1of4T">
+						<h5>ON SALE</h5>
+						<ul>
+							<li><a href="gift.html">Gift Packages</a></li>
+							<li><a href="glass.html">Glassware</a></li>
+						</ul>
 				</div>
+			</div>
 
 
 			<!-- detail product lists top 2 -->
-			<div class="col-2of3"><h3 class="wineTitle">$20-$49.99</h3></div>
-					<div class="col-1of3" id="winepg">
+			<div class="col-1of1"><h3 class="pageTitle"> $20-49.99</h3></div>
+			<a href="#top" class="col-1of1" id="ToggleBar">Categories</a>
+				<div class="col-1of3" id="winepg">
 					<div class="col-1of2">
 						<img src="imgs/red1.png" height="350"/>
 				    </div><!--end of col-1of2-->
 					<div class="col-1of2">
-						<h4>Wine Title Test</h4>
-						<p>Text alignment Test Text alignment Test</p>
+						<h4>Cabernet Sauvignon - Hess Select 2011</h4>
+						<p>Showing jammy dark fruit aromas with cedary barrel notes and a touch of spice.</p>
 						<a href="IndividualRed1.html">View More>></a>
 
 						<form method="post" action="" id="addWine">
@@ -96,18 +104,16 @@
 
 							<button type="submit" name="addCart" onclick="alert('Wine added in your cart!')"> Add to Cart</button>
 						</form>
-
 					</div><!--end of col-1of2-->
-			
-				</div>
+				</div><!--end of col-1of-->
 
 				<div class="col-1of3" id="winepg">
 				<div class="col-1of2">
 						<img src="imgs/rose.png" height="350"/>
 				    </div><!--end of col-1of2-->
 					<div class="col-1of2">
-						<h4>Wine Title Test</h4>
-						<p>Text alignment Test Text alignment Test</p>
+					<h4>Calliope Rosé 2010</h4>
+						<p>Bright aromas of sun-warmed red berries, stone fruit, floral notes and savoury dried herbs.</p>
 						<a href="IndividualRose.html">View More>></a>
 
 						<form method="post" action="" id="addWine">
@@ -130,8 +136,8 @@
 						<img src="imgs/white2.png" height="350"/>
 				    </div><!--end of col-1of2-->
 					<div class="col-1of2">
-							<h4>Wine Title Test</h4>
-							<p>Text alignment Test Text alignment Test</p>
+						<h4>TIKI Sauvignon Blanc 2009</h4>
+						<p> Reserve is a beautifully crafted wine and a classic expression of the Marlborough style. </p>
 							<a href="IndividualWhite2.html">View More>></a>
 									
 						<form method="post" action="" id="addWine">
@@ -142,17 +148,16 @@
 
 							<button type="submit" name="addCart" onclick="alert('Wine added in your cart!')"> Add to Cart</button>
 						</form>
-
 					</div>
-				</div><!--end of col-1of2-->
+				</div><!--end of col-1of3-->
 						
 				<div class="col-1of3" id="winepg">
 					<div class="col-1of2">
 						<img src="imgs/red3.png" height="350"/>
 				    </div><!--end of col-1of2-->
 					<div class="col-1of2">
-						<h4>Wine Title Test</h4>
-						<p>Text alignment Test Text alignment Test</p>
+						<h4>Rosso di Torgiano</h4>
+						<p>A red with balanced body and a fine ruby colour. Its aromas are typically spicy and consist of pepper and sweet tobacco.</p>
 						<a href="IndividualRed3.html">View More>></a>
 
 						<form method="post" action="" id="addWine">
@@ -161,57 +166,117 @@
 							<input type="text" size="3" name="qty" placeholder="0">
 							<label for="qty" form="addWine">$240/case</label>						
 							<button type="submit" name="addCart" onclick="alert('Wine added in your cart!')"> Add to Cart</button>
-
 						</form>
+					</div><!--end of col-1of2-->				
+				</div> <!--end of 1of3-->
 
-					</div><!--end of col-1of2-->
-										
+				<div class="col-1of3" id="winepg">
+					<div class="col-1of2">
+						<img src="imgs/white3.png" height="350"/>
+				    </div><!--end of col-1of2-->
+					<div class="col-1of2">
+							<h4>WCalliope Sauvignon Blanc 2011 </h4>
+							<p> Lemon, chalk, sugar snap peas along with ripe tropical mango and passionfruit.</p>
+							<a href="IndividualWhite2.html">View More>></a>
+									
+						<form method="post" action="" id="addWine">
+							<input type="text" size="3" name="qty" placeholder="0">
+							<label for="qty" form="addWine">$60/bottle</label>
+							<input type="text" size="3" name="qty" placeholder="0">
+							<label for="qty" form="addWine">$240/case</label>						
+
+							<button type="submit" name="addCart" onclick="alert('Wine added in your cart!')"> Add to Cart</button>
+						</form>
+					</div>
+				</div><!--end of col-1of3-->
+
+				<div class="col-1of3" id="winepg">
+					<div class="col-1of2">
+						<img src="imgs/red2.png" height="350"/>
+				    </div><!--end of col-1of2-->
+					<div class="col-1of2">
+						<h4>Fog Mountain Merlot 2010</h4>
+						<p>Dark ruby in color with aromas reminiscent of raspberry jam with hints of lightly toasted oak.</p>
+						<a href="IndividualRose.html">View More>></a>
+
+						<form method="post" action="" id="addWine">
+							<input type="text" size="3" name="qty" placeholder="0">
+							<label for="qty" form="addWine">$60/bottle</label>
+							<input type="text" size="3" name="qty" placeholder="0">
+							<label for="qty" form="addWine">$240/case</label>						
+
+							<button type="submit" name="addCart" onclick="alert('Wine added in your cart!')"> Add to Cart</button>
+						</form>
+					</div><!--end of col-1of2-->			
 				</div>
 				
-				
-				<!--YOU MAY ALSO LIKE-->
-				
-				<div class="col-2of3" id="alsoLike">
+				<!--YOU MAY ALSO LIKE-->				
+				<div class="col-1of1" id="alsoLike">
 				<div id="txtLike"><p>YOU MAY ALSO LIKE</p></div>
-					<div class="col-1of3"> 
+					<div class="col-1of4"> 
 						<div class="col-1of2">
 							<img src="imgs/red3.png" height="215"/>
 					    </div><!--end of col-1of2-->
-						
-						<div class="col-1of2">
-							<h4>Wine Title </h4>
-							<p>Text alignment Test Text alignment Test</p>
-							<button type="submit" class="view"> View More</button>
-						</div><!--end of col-1of3-->
-					</div>
+						<form method="post" action="" id="addWine">
+							<div class="col-1of2">
+								<h4>Rosso di Torgiano</h4>
+						<p>A red with balanced body and a fine ruby colour.</p>
+								<button type="submit" class="view" formaction="individualRed3.html"> View More</button>
+							</div><!--end of col-1of4-->
+						</div>
 
-					<div class="col-1of3"> 
-						<div class="col-1of2">
-							<img src="imgs/white1.png" height="215"/>
-					    </div><!--end of col-1of2-->
-						
-						<div class="col-1of2">
-							<h4>Wine Title </h4>
-							<p>Text alignment Test Text alignment Test</p>
-							<button type="submit" class="view"> View More</button>
-						</div><!--end of col-1of3-->
-					</div>
+						<div class="col-1of4"> 
+							<div class="col-1of2">
+								<img src="imgs/white1.png" height="215"/>
+						    </div><!--end of col-1of2-->
+							
+							<div class="col-1of2">
+								<h4>Echo Falls California</h4>
+								<p>Fresh and fruity white wine, perfect on its own or even better with friends.</p>
+								<button type="submit" class="view" formaction="individualWhite1.html"> View More</button>
+							</div><!--end of col-1of4-->
+						</div>
 
-					<div class="col-1of3"> 
+						<div class="col-1of4"> 
+							<div class="col-1of2">
+								<img src="imgs/red2.png" height="215"/>
+						    </div><!--end of col-1of2-->
+							
+							<div class="col-1of2">
+								<h4>Fog Mountain Merlot 2010</h4>
+								<p>Dark ruby color with aromas of raspberry jam with hints of lightly toasted oak.</p>
+								<button type="submit" class="view" formaction="individualRed2.html"> View More</button>
+							</div><!--end of col-1of2-->
+						</div><!--end of col-1of4-->
+
+						<div class="col-1of4"> 
 						<div class="col-1of2">
-							<img src="imgs/red2.png" height="215"/>
+							<img src="imgs/red1.png" height="215"/>
 					    </div><!--end of col-1of2-->
-						
+						<form method="post" action="" id="addWine">
+							<div class="col-1of2">
+								<h4>Cabernet Sauvignon 2011 </h4>
+								<p>Jammy dark fruit aromas with cedary barrel notes and a touch of spice.</p>
+								<button type="submit" class="view" formaction="individualRed1.html"> View More</button>
+							</div><!--end of col-1of4-->
+						</div>
+
+						<div class="col-1of4"> 
 						<div class="col-1of2">
-							<h4>Wine Title </h4>
-							<p>Text alignment Test Text alignment Test</p>
-							<button type="submit" class="view"> View More</button>
-						</div><!--end of col-1of3-->
-					</div>
-													
-													
-													
-				</div> 
+							<img src="imgs/white2.png" height="215"/>
+					    </div><!--end of col-1of2-->
+						<form method="post" action="" id="addWine">
+							<div class="col-1of2">
+								<h4>TIKI Sauvignon Blanc 2009 </h4>
+								<p>Beautifully crafted wine and a classic expression of the Marlborough style</p>
+								<button type="submit" class="view" formaction="individualWhite2.html"> View More</button>
+							</div><!--end of col-1of4-->
+						</div>
+						</form>								
+														
+					</div> <!--end of col-1of1-->
+
+
 
 
 
@@ -230,7 +295,8 @@
 
 
 
-
+    <script src="js/jQuery.js"></script>
+    <script src="js/ui.js"></script>
 	</body>
 </html>
 

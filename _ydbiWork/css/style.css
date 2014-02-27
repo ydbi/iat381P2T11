@@ -55,7 +55,7 @@ a:hover {
 	color: #6b9eb4;
 }
 
-.wineTitle{ /* not sure if this is actually working */
+.pageTitle{ /* not sure if this is actually working */
 	width: 100%;
 	border-bottom: 1px solid #B8B8B8  ;
 	display: block;
@@ -81,6 +81,7 @@ a:hover {
 	text-align: left;
 	padding-left: 85px;
 	margin-bottom: 10px;
+	padding-top: 50px;
 }
 
 .content img {
@@ -93,7 +94,6 @@ a:hover {
 
 .content p {
 	margin-left: 85px;
-	padding-bottom: 20px;
 	line-height: normal;
 	text-align: justify;
 	color: #58585b;
@@ -233,18 +233,28 @@ nav a:hover, nav a:active {  /* active not working now */
 /* FOOTER */
 #footer {
 	display: block;
-	height: 120px;
-	margin-top: 20px;
+	margin-top: 50px;
 	background-color:#874854;
+}
+
+#footer h1 {
+	padding-top: 15px;
+	text-align: left;
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #fbf1de;
 }
 
 #footer p {
 	padding-top: 15px;
+	text-align: left;
 	line-height: normal;
-	text-transform: lowercase;
-	text-align: center;
+	font-size: 12px;
+	text-transform: capitalize;
 	color: #fbf1de;
 }
+
+/* END FOOTER */
 
 /* Wine Pg Sidebar */
 #sideBar {

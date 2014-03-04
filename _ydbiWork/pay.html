@@ -1,0 +1,144 @@
+<!doctype html>
+<html> 
+	<head>
+		<meta charset="utf-8">
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+		<link href="css/grid.css" rel="stylesheet" type="text/css" media="screen" />
+		<title>Winity</title>
+	</head>
+	<body>
+		<div class="grid">
+
+				<header id="top">
+					<h1> Winity </h1>
+				</header>
+			
+				<div id="logo">
+					<span id="scart"><a href="cart.html"><img src="imgs/cart.png" ></a></span>
+					<ul>
+						<li><a href="log.html">Log in/Register</a></li>
+						<li><a href="guest.html">Guest order check</a></li>
+					</ul>
+
+				</div>
+				
+			<!--menu-->
+			<nav class = "grid">
+<!-- 				<header id="top">
+					<h1> Winity </h1>
+				</header> -->
+				<div class="col-1of4">
+					<a href="index.html">Home</a></li>
+				</div>
+
+				<div  class="col-1of4">
+					<a href="wine.html">Our Wine</a></li> 
+				</div>
+
+				<div  class="col-1of4">
+					<a href="about.html">About</a></li>
+				</div>
+				<div  class="col-1of4">
+					<a href="contact.html">Contact</a></li>
+				</div>
+			</nav>
+
+
+			<!-- payment -->
+			<div class="col-1of1" >
+					<h3 class="pageTitle">Payment Info</h3> 
+
+			<div class="col-1of2">
+					<h4>Already a member? Log in to save time</h4>
+				<div class="login">					
+					<label for="name"><h4>User Email</h4></label>
+					<input type="text" id="uname" name="uname" placeholder="">
+				</div>
+
+				<div class="login">
+					<label for="pswd"><h4>Password</h4></label>
+					<input type="text" id="pswd" name="pswd" placeholder="">
+				</div>
+
+				<input type="submit" value="Log in" id="login" onclick=""> 
+			</div>
+
+			</div>
+
+			<div class="col-1of2">
+					<h4>Guest Checkout</h4>
+				<div class="">					
+					<label for="name"><h4>First Name</h4></label>
+					<input type="text" id="uname" name="uname" placeholder="">
+					<label for="pswd"><h4>Last Name</h4></label>
+					<input type="text" id="pswd" name="pswd" placeholder="">
+				</div>
+
+				<div class="">
+					<label for="pswd"><h4>Street Address</h4></label>
+					<input type="text" id="pswd" name="pswd" placeholder="">
+					<label for="pswd"><h4>City</h4></label>
+					<input type="text" id="pswd" name="pswd" placeholder="">
+					<label for="pswd"><h4>Province</h4></label>
+					<input type="text" id="pswd" name="pswd" placeholder="">
+					<label for="pswd"><h4>Postal Code</h4></label>
+					<input type="text" id="pswd" name="pswd" placeholder="">
+				</div>
+				<h4>Payment Method</h4>
+				<div class="">
+					<label for="pswd"><h4>Card Number</h4></label>
+					<input type="text" id="pswd" name="pswd" placeholder="">
+					<label for="pswd"><h4>Card Holder</h4></label>
+					<input type="text" id="pswd" name="pswd" placeholder="">
+					<label for="pswd"><h4>CCV</h4></label>
+					<input type="text" id="pswd" name="pswd" placeholder="">
+					<label for="pswd"><h4>Expiration Date</h4></label>
+					<input type="text" id="pswd" name="pswd" placeholder="">
+				</div>
+			</div>
+
+			</div>
+			
+
+				<div id="btnCart"> 
+					<form method="post">
+						<button type="submit" name="addCart" formaction="confirm.html">proceed</button>
+						<button type="submit" name="out" formaction="cart.html">back </button>
+					</form>
+				</div>
+			</div>	 <!-- end 1of1 -->						
+
+		</div><!--end of grid total-->
+
+
+		<div id ="footer">
+			<div class="grid">
+				<div class="col-1of1">
+					<p>COPYRIGHT © 2014 WINITY</p>
+				</div><!--end of col-1of2-->
+			</div>
+		</div>
+
+
+
+
+	</body>
+</html>
+
+<!--
+
+		<form method="post" action="#" id="cmt">
+
+			<label for="formname">Name</label>
+			<input type="text" id="formname" name="formname" placeholder="Jane Doe">
+
+			<label for="formsubject">Subject</label>
+			<input type="text" id="formsubject" name="formsubject" placeholder="A title">
+
+			<label for="formcmt">Comment</label>
+			<textarea id="formcmt" name="formcmt" placeholder="Place cmt here"></textarea>
+
+			<input type="submit" value="submit">
+
+		</form>
+	-->

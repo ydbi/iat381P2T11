@@ -60,7 +60,6 @@ a:hover {
 	border-bottom: 1px solid #B8B8B8  ;
 	display: block;
 	margin-top: 10px;
-	padding-left:80px;
 	font-weight: bold;
 	text-align: left;
 }
@@ -76,7 +75,7 @@ a:hover {
 /* MAIN CONTENT STUFF */
 .content .inputs{
 	text-align: left;
-	margin-left: 70px;
+/*	margin-left: 70px;*/
 }
 
 .content .inputs button{
@@ -87,8 +86,8 @@ a:hover {
 
 .content h4{
 	text-align: left;
-	padding-left: 85px;
-	margin-top:0px;
+/*	padding-left: 85px;*/
+	margin-top:20px;
 	margin-bottom: 10px;
 }
 
@@ -101,8 +100,8 @@ a:hover {
 }
 
 .content p {
-	margin-left: 85px;
-	line-height: normal;
+/*	margin-left: 85px;
+*/	line-height: normal;
 	text-align: justify;
 	color: #58585b;
 	font-size: 1em;
@@ -280,7 +279,7 @@ nav a:hover, nav a:active {  /* active not working now */
 	font-size: 0.8em;
 	text-transform: capitalize;
 	color: #fbf1de;
-	margin-left: 20px;
+/*	margin-left: 20px;*/
 }
 
 #footer  ul {
@@ -291,7 +290,7 @@ nav a:hover, nav a:active {  /* active not working now */
 	line-height: normal;
 	font-size: 0.8em;
 	color: #fbf1de;
-	margin-left: 20px;
+/*	margin-left: 20px;*/
 }
 
 #footer li{
@@ -726,7 +725,17 @@ button:hover {
 #cartItem ul{
 	list-style: none;
 	text-align: left;
+	float: left;
+}
+
+#price ul{
+	list-style: none;
+	text-align: right;
 	float: right;
+}
+
+#total{
+	font-weight:bold;
 }
 
 #dotLine{
@@ -735,10 +744,10 @@ button:hover {
 	border-bottom: 1px dotted #B8B8B8;
 }
 
-#noLine{
+/*#noLine{
 	margin-top:20px;
 	margin-bottom: 20px;
 	border-bottom: 1px dotted #fbf1de;
-}
+}*/
 
 

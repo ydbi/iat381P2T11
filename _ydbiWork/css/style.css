@@ -266,21 +266,36 @@ nav a:hover, nav a:active {  /* active not working now */
 	background-color:#874854;
 }
 
-#footer h1 {
+/*#footer h1 {
 	padding-top: 15px;
 	text-align: left;
 	text-transform: uppercase;
 	font-size: 15px;
 	color: #fbf1de;
-}
+}*/
 
 #footer p {
-	padding-top: 15px;
 	text-align: left;
 	line-height: normal;
-	font-size: 12px;
+	font-size: 0.8em;
 	text-transform: capitalize;
 	color: #fbf1de;
+	margin-left: 20px;
+}
+
+#footer  ul {
+	margin-top:15px;
+	padding:0px;
+	list-style: none;
+	text-align: left;
+	line-height: normal;
+	font-size: 0.8em;
+	color: #fbf1de;
+	margin-left: 20px;
+}
+
+#footer li{
+	text-align: left;
 }
 
 /* END FOOTER */
@@ -339,7 +354,6 @@ nav a:hover, nav a:active {  /* active not working now */
 	padding-top:15px;
 	padding-right: 15px;
 	border-spacing: 5px;
-	height: 400px;
 	background: rgba(236, 225, 211, 0.4);
 }
 
@@ -353,12 +367,7 @@ nav a:hover, nav a:active {  /* active not working now */
 	border-bottom: thin solid  #d1d2d4;
 }
 
-#userBox{
-	padding-bottom: 30%;
-	border-style: solid;
-	border-color: #d1d2d4;
-}
-
+/*contact pg form*/
 .inputs{
 	position: relative;
 	left: 15px;
@@ -372,16 +381,154 @@ nav a:hover, nav a:active {  /* active not working now */
 	margin-right: 10px;
 }
 
-.login label{
-	display:inline-block;
-	float: center;
+.inputs #submit{
+	float: right;
+	margin-right: 65px;
+	margin-top: 10px;
+}
+
+/* pay.html pg stuff*/
+#save {
+	margin:10px;
 	text-align: left;
+	margin-left: 80px;
+}
+
+#userBoxp{
+	text-align: left;
+	margin-left: 80px;
+	padding-left: 20px;
+	width: 45%;
+	height: 220px;
+	background: rgba(236, 225, 211, 0.8);
+}
+
+#userBoxp1{
+	margin-left: 10px;
+	padding-left: 20px;
+	width: 45%;
+	height: 220px;
+	text-align: left;
+	background: rgba(236, 225, 211, 0.8);
+}
+
+#userBoxp h4{
+	margin-bottom:0px;
+	margin-top: 15px;
+}
+
+#userBoxp1 h4{
+	margin-bottom:0px;
+	margin-top: 15px;
+}
+
+.logp label{
+	width: 40%;
+	display:inline-block;
+	text-align: right;
+	margin: 0 5% 0 4%;
+}
+
+#logp {
+	float: right;
+	margin-right: 80px;
+	background-color: #874854;
+	color: #FFFFFF;
+	border: none;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 1.1em;
+}
+
+#logptn {
+	margin-top: 20px;
+	float: right;
+	margin-right: 70px;
+	background-color: #874854;
+	color: #FFFFFF;
+	border: none;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 1.1em;
+}
+
+#logptn:hover{
+	border: none;
+	background-color: #1b75bb;
+	color: #FFFFFF;
+}
+
+.gcheck{
+	padding:0px;
+	margin-left: 80px;
+	padding-bottom: 15px;
+	background: rgba(236, 225, 211, 0.8);
+}
+
+.gcheck label{
+	width: 16%;
+	display:inline-block;
+}
+
+.gcheck h4{
+	padding-top: 10px;
+	padding-left: 20px;
+	margin:5px;
+	text-align: left;
+}
+
+#btnp button{
+}
+
+#btnp form{
+	padding:0px;
+	float: right;
+}
+
+/* log in pg stuff*/
+#userBox{
+	margin-left: 50px;
+	padding-bottom: 10px;
+	height: 320px;
+	background: rgba(236, 225, 211, 0.8);
+}
+
+#userBox h4{
+	margin-bottom:20px;
+}
+
+.login label{
+	width: 20%;
+	display:inline-block;
+	text-align: right;
+	margin: 0 5% 0 4%;
+}
+
+#login {
+	float: right;
+	margin-right: 80px;
+	background-color: #874854;
+	color: #FFFFFF;
+	border: none;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 1.1em;
+}
+
+#login:hover{
+	border: none;
+	background-color: #1b75bb;
+	color: #FFFFFF;
+}
+
+.cfm label{
+	margin: 0 1% 0 0;
 }
 
 label {
 	font-weight: bold;
 	font-size: 0.8em;
-	margin-top: 7px; /* NOT WORKING */
+/*	margin-top: 7px;  */
 	display: inline-block;
 }
 
@@ -430,25 +577,31 @@ button:hover {
 }
 
 
-#login {
-	position:relative;
-	right: -150px;
-	background-color: #874854;
-	color: #FFFFFF;
-	border: none;
-	text-decoration: none;
-	border-radius: 5px;
-	font-size: 1.1em;
-}
-
-#login:hover{
-	border: none;
-	background-color: #1b75bb;
-	color: #FFFFFF;
-}
-
 #login img{
 	border: none;
+}
+
+/*confirm.html stuff*/
+#confirm{
+	text-align: left;
+	margin-left: 80px;
+}
+
+#confirm a{
+	color: #58585b;
+}
+
+#confirm a:hover{
+	color: #6b9eb4;
+}
+
+#confirm h4{
+	margin-bottom:10px;
+}
+
+#cbox{	
+	padding-bottom: 20px;
+	background: rgba(236, 225, 211, 0.8);
 }
 
 /* col stuff */
@@ -475,6 +628,11 @@ button:hover {
 	margin-bottom:10px;
 }
 
+.guest{
+	text-align: left;
+	margin-left: 80px;
+}
+
 .guest label{
 	margin-right: 10px;
 	font-size: 1em;
@@ -482,13 +640,13 @@ button:hover {
 	color: #58585b;
 }
 
-.guest h4{
-	position: relative;
-	left: -180px;
+#btno{
+	display: inline-block;
+	margin-left: 15px;
+	font-size: 1em;
 }
 
 /* individual pages */
-
 #indiWine{
 	background-color: rgba(236, 225, 211, 0.4);
 	padding:15px;
@@ -557,6 +715,7 @@ button:hover {
 
 #btnCart button{
 	float: right;
+	margin-right: 5px;
 	margin-top:21px;
 }
 #btnCart form{

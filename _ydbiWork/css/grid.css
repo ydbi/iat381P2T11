@@ -40,6 +40,9 @@
 /* do width=100% in main.css nav tag */
 }
 
+.col-1of22{
+	width: 45%;
+}
 
 @media (max-width: 990px) {
 	.col-1of4{
@@ -60,7 +63,6 @@
 
 .col-1of3{
 	width: 32.70%;
-
 }
 
 .col-2of3{
@@ -85,5 +87,13 @@
 		padding-top: 5px;
 	}
 }
+
+@media (max-width: 700px) {
+	.col-1of22{
+		width: 100%;
+		padding-top: 5px;
+	}
+}
+
 
 

@@ -46,50 +46,73 @@
 
 			<!-- payment -->
 			<div class="col-1of1" >
-					<h3 class="pageTitle">Payment Info</h3> 
+				<h3 class="pageTitle">Payment Info</h3>  
+				<h4 id="save">You can Log in or Register to save time on checkout</h4>
+			</div>
 
-			<div class="col-1of2">
-					<h4>Already a member? Log in to save time</h4>
-				<div class="login">					
+			<div class="col-1of22" id="userBoxp">
+				<h4>LOG IN</h4>
+				<div class="logp">					
 					<label for="name"><h4>User Email</h4></label>
 					<input type="text" id="uname" name="uname" placeholder="">
 				</div>
-
-				<div class="login">
+				<div class="logp">
 					<label for="pswd"><h4>Password</h4></label>
 					<input type="text" id="pswd" name="pswd" placeholder="">
 				</div>
-
-				<input type="submit" value="Log in" id="login" onclick=""> 
+			<input type="submit" value="Log in" id="logptn" onclick=""> 
 			</div>
 
+			<div class="col-1of22" id="userBoxp1">
+				<h4>REGISTER</h4>
+				<div class="logp">					
+					<label for="name"><h4>User Email</h4></label>
+					<input type="text" id="uname" name="uname" placeholder="">
+				</div>
+				<div class="logp">	
+					<label for="pswd"><h4>Password</h4></label>
+					<input type="text" id="pswd" name="pswd" placeholder="">
+				</div>
+				<div class="logp">	
+				<label for="pswd"><h4>Confirm Password</h4></label>
+				<input type="text" id="pswd" name="pswd" placeholder="">
+				</div>
+				
+				<input type="submit" value="Register" id="logptn" onclick=""> 
 			</div>
 
-			<div class="col-1of2">
-					<h4>Guest Checkout</h4>
-				<div class="">					
+			<!-- guest checkout -->
+			<div class="col-1of1">
+				<h4 id="save">Guest Checkout</h4>
+				<div class="gcheck">
+					<h4 >Personal Info</h4>					
 					<label for="name"><h4>First Name</h4></label>
 					<input type="text" id="uname" name="uname" placeholder="">
 					<label for="pswd"><h4>Last Name</h4></label>
 					<input type="text" id="pswd" name="pswd" placeholder="">
 				</div>
-
-				<div class="">
+				<div class="gcheck">	
 					<label for="pswd"><h4>Street Address</h4></label>
 					<input type="text" id="pswd" name="pswd" placeholder="">
 					<label for="pswd"><h4>City</h4></label>
 					<input type="text" id="pswd" name="pswd" placeholder="">
+				</div>
+				<div class="gcheck">
 					<label for="pswd"><h4>Province</h4></label>
 					<input type="text" id="pswd" name="pswd" placeholder="">
 					<label for="pswd"><h4>Postal Code</h4></label>
 					<input type="text" id="pswd" name="pswd" placeholder="">
 				</div>
-				<h4>Payment Method</h4>
-				<div class="">
-					<label for="pswd"><h4>Card Number</h4></label>
-					<input type="text" id="pswd" name="pswd" placeholder="">
+			</div>
+			<div class="col-1of1">
+				<div class="gcheck">
+					<h4 >Card Info</h4>	
 					<label for="pswd"><h4>Card Holder</h4></label>
 					<input type="text" id="pswd" name="pswd" placeholder="">
+					<label for="pswd"><h4>Card Number</h4></label>
+					<input type="text" id="pswd" name="pswd" placeholder="">
+				</div>
+				<div class="gcheck">
 					<label for="pswd"><h4>CCV</h4></label>
 					<input type="text" id="pswd" name="pswd" placeholder="">
 					<label for="pswd"><h4>Expiration Date</h4></label>
@@ -97,27 +120,27 @@
 				</div>
 			</div>
 
+			<div id="btnp"> 
+				<form method="post">
+					<button type="submit" name="out" formaction="cart.html">back </button>
+					<button type="submit" name="addCart" formaction="confirm.html">proceed</button>
+				</form>
 			</div>
+		</div>	<!--end of grid total-->
+
 			
-
-				<div id="btnCart"> 
-					<form method="post">
-						<button type="submit" name="addCart" formaction="confirm.html">proceed</button>
-						<button type="submit" name="out" formaction="cart.html">back </button>
-					</form>
-				</div>
-			</div>	 <!-- end 1of1 -->						
-
-		</div><!--end of grid total-->
-
-
 		<div id ="footer">
 			<div class="grid">
 				<div class="col-1of1">
+				<ul>
+					<li>Phone: +1 (604) 331-7900 </li>
+					<li>Email: winitywine@winity.com</li>
+					<li>Address: 1633 Manitoba St Vancouver, BC V5Y 0B8</li>
+				</ul>
 					<p>COPYRIGHT © 2014 WINITY</p>
 				</div><!--end of col-1of2-->
 			</div>
-		</div>
+		</div><!--end of footer-->
 
 
 

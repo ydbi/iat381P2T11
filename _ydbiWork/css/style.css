@@ -163,14 +163,18 @@ a:hover {
 }
 
 #eachLike{
+	min-height: 260px;
 	background-color: rgba(236, 225, 211, 0.4);
-	padding-top:10px;
-	padding-right: 10px;
-	margin-right: 15px;
+	padding-top:5px;
+	padding-right: 5px;
+	margin-right: 10px;
 }
-/*#likeBt{
-	height: 220px;
-}*/
+
+#likeBt button{
+	display: block;
+	font-size: 1em;
+}
+
 #alsoLike p{
 	font-size: 0.7em;
 }
@@ -344,14 +348,12 @@ nav a:hover, nav a:active {  /* active not working now */
 	text-transform: uppercase;
 }
 
-/*#homeWine{
-		height: 200px;
-}*/
 #winepg {
+	min-height: 400px;
 	margin: 3px;
 	margin-top: 10px;
 	padding-top:15px;
-	padding-right: 15px;
+	padding-right: 10px;
 	border-spacing: 5px;
 	background: rgba(236, 225, 211, 0.4);
 }
@@ -367,7 +369,7 @@ nav a:hover, nav a:active {  /* active not working now */
 }
 
 /*contact pg form*/
-.inputs{
+/*.inputs{
 	position: relative;
 	left: 15px;
 	float: left;
@@ -384,7 +386,7 @@ nav a:hover, nav a:active {  /* active not working now */
 	float: right;
 	margin-right: 65px;
 	margin-top: 10px;
-}
+}*/
 
 /* pay.html pg stuff*/
 #save {
@@ -525,9 +527,10 @@ nav a:hover, nav a:active {  /* active not working now */
 }
 
 label {
+	margin:2px;
 	font-weight: bold;
-	font-size: 0.8em;
-/*	margin-top: 7px;  */
+	font-size: 0.9em;
+	margin-top: 7px;  
 	display: inline-block;
 }
 
@@ -543,15 +546,8 @@ button {
 	margin-top: 20px;
 }
 
-button.view{
-	background-color: #874854;
-	color: #FFFFFF;
-	border: none;
-	text-decoration: none;
-	border-radius: 5px;
+.col-1of2 button.view{
 	font-size: 1em;
-	float: right;
-	margin-top: 20px;
 }
 
 button:hover {
@@ -649,6 +645,7 @@ button:hover {
 #indiWine{
 	background-color: rgba(236, 225, 211, 0.4);
 	padding:15px;
+	min-height: 512px;
 }
 
 .individual ul{

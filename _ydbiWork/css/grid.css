@@ -37,11 +37,21 @@
 
 .col-1of4{
 	width: 20%;
-/* do width=100% in main.css nav tag */
+}
+
+.col-1of5{
+	width: 19%;
 }
 
 .col-1of22{
 	width: 45%;
+}
+
+@media (max-width: 990px) {
+	.col-1of5{
+		width: 100%;
+		padding-top: 0px;
+	}
 }
 
 @media (max-width: 990px) {

@@ -647,7 +647,7 @@ button:hover {
 #indiWine{
 	background-color: rgba(236, 225, 211, 0.4);
 	padding:15px;
-	min-height: 512px;
+	min-height: 520px;
 }
 
 .individual ul{
@@ -687,7 +687,7 @@ button:hover {
 .individual #btnIndi{
 	display: inline-block;
 	text-align: center;
-	float: right;
+/*	float: right;*/
 	margin-top:10px;
 }
 

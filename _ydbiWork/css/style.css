@@ -19,8 +19,9 @@ h3, h4 {
 }
 
 h1 {
+	font-family: 'Cookie', cursive;
 	position: relative;
-	font-size: 2.5em;
+	font-size: 3em;
 }
 
 h2 {
@@ -158,7 +159,6 @@ a:hover {
 }
 
 #top{
-	padding-left: 50px;
 	margin-bottom: 0px;
 }
 
@@ -183,8 +183,6 @@ a:hover {
 }
 
 /* NAV-MENU */
-.menu{
-}
 
 nav a, nav a:visited {
 	padding:3px;
@@ -198,6 +196,10 @@ nav a, nav a:visited {
 nav a:hover, nav a:active {  /* active not working now */
 	color: #6b9eb4;
 	border: 1px solid #6b9eb4; 
+}
+
+nav li{
+	text-align: left;
 }
 
 #ToggleBar{
@@ -221,7 +223,7 @@ nav a:hover, nav a:active {  /* active not working now */
 #logo {
 	overflow: visible;
 	position: relative;
-	left: 50px;
+	left: 45px;
 }
 #logo ul {
 	list-style: none;

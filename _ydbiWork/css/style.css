@@ -700,6 +700,13 @@ button:hover {
 	max-width:100%;
 }
 
+/*cart styles*/
+#cart1{
+	background-color: rgba(236, 225, 211, 0.4);
+	padding: 10px 10px 10px 0px;
+	margin-top: 15px;
+}
+
 #cartItem img{
 	float:left;
 	margin-left:80px;

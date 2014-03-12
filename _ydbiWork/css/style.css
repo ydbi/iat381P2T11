@@ -490,9 +490,9 @@ nav li{
 
 /* log in pg stuff*/
 #userBox{
-	margin-left: 50px;
+	margin-right: 40px;
 	padding-bottom: 10px;
-	height: 320px;
+	min-height: 320px;
 	background: rgba(236, 225, 211, 0.8);
 }
 
@@ -627,7 +627,7 @@ button:hover {
 
 .guest{
 	text-align: left;
-	margin-left: 80px;
+/*	margin-left: 80px;*/
 }
 
 .guest label{

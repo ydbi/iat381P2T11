@@ -3,35 +3,40 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
 		<link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
 		<link href="css/grid.css" rel="stylesheet" type="text/css" media="screen" />
+		<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Quattrocento:700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans' rel='stylesheet' type='text/css'>
 		<title>Winity</title>
 	</head>
 	<body>
 		<div class="grid">
 
-				<header id="top">
-					<h1> Winity </h1>
-				</header>
-			
-				<div id="logo">
-					<span id="scart"><a href="cart.html"><img src="imgs/cart.png" ></a></span>
-					<ul>
-						<li><a href="log.html">Log in/Register</a></li>
-						<li><a href="guest.html">Guest order check</a></li>
-					</ul>
-				</div>
+			<!--Logo-->
+			<header id="top">
+				<a href="index.html"><h1> Winity </h1></a>
+			</header>
+			<!--End of logo-->
+
+			<!--LogIn-->
+			<div id="logo">
+				<span id="scart"><a href="cart.html"><img src="imgs/cart.png" ></a></span>
+				<ul>
+					<li><a href="log.html">Log in/Register</a></li>
+					<li><a href="guest.html">Guest order check</a></li>
+				</ul>
+			</div>
+			<!--End of LogIn-->
 				
-			<!--menu-->
-			<!--menu-->
+			<!--Menu-->
 			<nav class = "grid">
 				<div class="col-1of4">
 					<li><a href="index.html">Home</a></li>
 				</div>
 
 				<div  class="col-1of4">
-					<li><a href="wine.html">Our Wine</a></li> 
+					<li><a id="selected" href="wine.html">Our Wine</a></li> 
 				</div>
 
 				<div  class="col-1of4">
@@ -41,57 +46,64 @@
 					<li><a href="contact.html">Contact</a></li>
 				</div>
 			</nav>
+			<!--End of Menu-->
 
-			<!-- types  -->
+
+<!-- ********************Content******************** -->
+			<!-- types NAV  -->
 			<div class="col-1of1" id="sideBar">
-					<div class="col-1of4T">
-						<h5>BY PRICE</h5>
-						<ul>
-							<li><a href="0-19.html">$0-19.99</a></li>
-							<li><a href="20-49.html">$20-49.99</a></li>
-							<li><a href="50-99.html">$50 and up</a></li>
-						</ul>
-					</div>
+				<div class="col-1of4T">
+					<h5>BY PRICE</h5>
+					<ul>
+						<li><a href="0-19.html">$ 0-19.99</a></li>
+						<li><a href="20-49.html">$ 20-49.99</a></li>
+						<li><a href="50-99.html">$ 50 and up</a></li>
+					</ul>
+				</div>
 
-					<div class="col-1of4T">
-						<h5>BY TYPE</h5>
-						<ul>
-							<li><a href="red.html">Red</a></li>
-							<li><a href="rose.html">Rose</a></li>
-							<li><a href="white.html">White</a></li>
-						</ul>
-					</div>
+				<div class="col-1of4T">
+					<h5>BY TYPE</h5>
+					<ul>
+						<li><a href="red.html">Red</a></li>
+						<li><a id="selected" href="rose.html">Rose</a></li>
+						<li><a href="white.html">White</a></li>
+					</ul>
+				</div>
 
-					<div class="col-1of4T">
-						<h5>BY REGION</h5>
-						<ul>
-							<li><a href="argen.html">Argentina</a></li>
-							<li><a href="france.html">France</a></li>
-							<li><a href="italy.html">Italy</a></li>
-						</ul>
-					</div>
+				<div class="col-1of4T">
+					<h5>BY REGION</h5>
+					<ul>
+						<li><a href="argen.html">Argentina</a></li>
+						<li><a href="france.html">France</a></li>
+						<li><a href="italy.html">Italy</a></li>
+					</ul>
+				</div>
 
-					<div class="col-1of4T">
-						<h5>ON SALE</h5>
-						<ul>
-							<li><a href="gift.html">Gift Packages</a></li>
-							<li><a href="glass.html">Glassware</a></li>
-						</ul>
+				<div class="col-1of4T">
+					<h5>ON SALE</h5>
+					<ul>
+						<li><a href="gift.html">Gift Packages</a></li>
+						<li><a href="glass.html">Glassware</a></li>
+					</ul>
 				</div>
 			</div>
+			<!-- End of types NAV  -->
 
 
 			<!-- detail product lists top 2 -->
-			<div class="col-1of1"><h3 class="pageTitle"> Rose</h3></div>
+			<!-- Title  -->
+			<div class="col-1of1"><h3 class="pageTitle">Rose</h3></div>
 			<a href="#top" class="col-1of1" id="ToggleBar">Categories</a>
+			<!-- End of Title  -->
+			
 				<div class="col-1of3" id="winepg">
 					<div class="col-1of2">
-						<img src="imgs/rose.png" height="350"/>
+						<a href="IndividualRose.html"><img src="imgs/rose.png" height="350"/></a>
 				    </div><!--end of col-1of2-->
 					<div class="col-1of2">
-						<h4>Calliope Rosé 2010</h4>
+						<a href="IndividualRose.html"><h4>Calliope Rosé 2010</h4></a>
 						<p>Bright aromas of sun-warmed red berries, stone fruit, floral notes and savoury dried herbs.</p>
-						<a href="IndividualRose.html">View More>></a>
+						<div id="viewmore"><a href="IndividualRose.html">View More>></a></div>
 
 						<form method="post" action="" id="addWine">
 							<input type="text" size="3" name="qty" placeholder="0">
@@ -106,12 +118,12 @@
 
 				<div class="col-1of3" id="winepg">
 				<div class="col-1of2">
-						<img src="imgs/rose1.png" height="350"/>
+						<a href="IndividualRose1.html"><img src="imgs/rose1.png" height="350"/></a>
 				    </div><!--end of col-1of2-->
 					<div class="col-1of2">
-					<h4>Calliope Rosé 2011 </h4>
-						<p>A pretty vibrant,delicate pink colour with aromas of wild strawberry,cherry rose petal and peac.</p>
-						<a href="IndividualRose1.html">View More>></a>
+					<a href="IndividualRose1.html"><h4>Calliope Rosé 2011 </h4></a>
+						<p>A pretty vibrant, delicate pink colour with aromas of wild strawberry and cherry rose petal.</p>
+						<div id="viewmore"><a href="IndividualRose1.html">View More>></a></div>
 
 						<form method="post" action="" id="addWine">
 							<input type="text" size="3" name="qty" placeholder="0">
@@ -134,11 +146,11 @@
 
 					<div class="col-1of5" id="eachLike"> 
 						<div class="col-1of2">
-							<img src="imgs/red3.png" height="215"/>
+							<a href="individualRed3.html"><img src="imgs/red3.png" height="215"/></a>
 					    </div><!--end of col-1of2-->
 					    <form method="post">
 						<div class="col-1of2"  id="likeBt">
-							<h4>Rosso di Torgiano</h4>
+							<a href="individualRed3.html"><h4>Rosso di Torgiano</h4></a>
 							<p>A red with balanced body and a fine ruby colour, with sweet and spicy aroma.</p>
 							<div  id="likeBt">
 							<button type="submit" class="view" formaction="individualRed3.html"> View More</button>
@@ -149,12 +161,12 @@
 
 					<div class="col-1of5" id="eachLike"> 
 						<div class="col-1of2"  id="likeBt">
-							<img src="imgs/white1.png" height="215"/>
+							<a href="individualWhite1.html"><img src="imgs/white1.png" height="215"/></a>
 					    </div><!--end of col-1of2-->
 					    <form method="post">
 						<div class="col-1of2">
-							<h4>Echo Falls California</h4>
-							<p>Fresh and fruity white wine, perfect on its own or even better with friends.</p>
+							<a href="individualWhite1.html"><h4>Echo Falls California</h4></a>
+							<p>Fresh and fruity white wine, perfect on its own or even better with friends for dinner.</p>
 							<div  id="likeBt">
 							<button type="submit" class="view" formaction="individualWhite1.html"> View More</button>
 							</div>
@@ -164,11 +176,11 @@
 
 					 <div class="col-1of5" id="eachLike">
 						<div class="col-1of2">
-							<img src="imgs/red2.png" height="215"/>
+							<a href="individualRed2.html"><img src="imgs/red2.png" height="215"/></a>
 					    </div>
 						<form method="post" action="">
 						<div class="col-1of2" id="likeBt">
-							<h4>Fog Mountain Merlot 2010</h4>
+							<a href="individualRed2.html"><h4>Fog Mountain Merlot 2010</h4></a>
 							<p>Dark ruby color with aromas of raspberry jam and toasted oak.</p>
 						<div  id="likeBt">
 							<button type="submit" class="view" formaction="individualRed2.html"> View More</button>
@@ -179,11 +191,11 @@
 
 					<div class="col-1of5" id="eachLike"> 
 						<div class="col-1of2">
-							<img src="imgs/red1.png" height="215"/>
+							<a href="individualRed1.html"><img src="imgs/red1.png" height="215"/></a>
 					    </div><!--end of col-1of2-->
 						<form method="post" action="" id="addWine"> 	
-							<div class="col-1of2"  id="likeBt">
-							<h4>Cabernet Sauvignon</h4>
+						<div class="col-1of2"  id="likeBt">
+							<a href="individualRed1.html"><h4>Cabernet Sauvignon</h4></a>
 							<p>Jammy dark fruit aromas with cedary barrel notes and a touch of spice.</p>
 						<div  id="likeBt">
 							<button type="submit" class="view" formaction="individualRed1.html"> View More</button>
@@ -194,11 +206,11 @@
 
 						<div class="col-1of5" id="eachLike"> 
 						<div class="col-1of2">
-							<img src="imgs/white2.png" height="215"/>
+							<a href="individualWhite2.html"><img src="imgs/white2.png" height="215"/></a>
 					    </div><!--end of col-1of2-->
 						<form method="post" action="">
 							<div class="col-1of2"  id="likeBt">
-								<h4>TIKI Sauvignon Blanc </h4>
+								<a href="individualWhite2.html"><h4>TIKI Sauvignon Blanc </h4></a>
 								<p>Beautifully crafted with a classic expression of the Marlborough style</p>
 							<div  id="likeBt">							
 								<button type="submit" class="view" formaction="individualWhite2.html"> View More</button>
@@ -208,16 +220,12 @@
 						</div>								
 														
 					</div> <!--end of col-1of1-->
+<!-- ********************End of Content******************** -->
 
-
-
-
-
-				<div class="content">
-					<p> </p>
-				</div>
 		</div><!--end of grid class-->
 
+
+		<!-- FOOTER -->
 		<div id ="footer">
 			<div class="grid">
 				<div class="col-1of1">
@@ -229,14 +237,15 @@
 					<p>COPYRIGHT © 2014 WINITY</p>
 				</div><!--end of col-1of2-->
 			</div>
-		</div><!--end of footer-->
-
+		</div>
+		<!--end of footer-->
 
 
     <script src="js/jQuery.js"></script>
     <script src="js/ui.js"></script>
 	</body>
 </html>
+
 
 <!--
 

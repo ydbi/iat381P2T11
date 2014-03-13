@@ -6,25 +6,30 @@
 		<link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
 		<link href="css/grid.css" rel="stylesheet" type="text/css" media="screen" />
 		<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Quattrocento:700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans' rel='stylesheet' type='text/css'>
 		<title>Winity</title>
 	</head>
 	<body>
 		<div class="grid">
 
-				<header id="top">
-					<h1> Winity </h1>
-				</header>
-			
-				<div id="logo">
-					<span id="scart"><a href="cart.html"><img src="imgs/cart.png" ></a></span>
-					<ul>
-						<li><a href="log.html">Log in/Register</a></li>
-						<li><a href="guest.html">Guest order check</a></li>
-					</ul>
+			<!--Logo-->
+			<header id="top">
+				<a href="index.html"><h1> Winity </h1></a>
+			</header>
+			<!--End of logo-->
 
-				</div>
+			<!--LogIn-->
+			<div id="logo">
+				<span id="scart"><a href="cart.html"><img src="imgs/cart.png" ></a></span>
+				<ul>
+					<li><a href="log.html">Log in/Register</a></li>
+					<li><a href="guest.html">Guest order check</a></li>
+				</ul>
+			</div>
+			<!--End of LogIn-->
 				
-			<!--menu-->
+			<!--Menu-->
 			<nav class = "grid">
 				<div class="col-1of4">
 					<li><a href="index.html">Home</a></li>
@@ -35,32 +40,38 @@
 				</div>
 
 				<div  class="col-1of4">
-					<li><a href="about.html">About</a></li>
+					<li><a id="selected" href="about.html">About</a></li>
 				</div>
 				<div  class="col-1of4">
 					<li><a href="contact.html">Contact</a></li>
 				</div>
 			</nav>
+			<!--End of Menu-->
 		
 
+<!-- ********************Content******************** -->
 			<h3 class="pageTitle">About Us</h3>
-			<div class="content">
+				<div class="content">
 				
-				<div class="col-1of2">
-					<h4>Our Philosophy</h4>
-					<p>To produce great Riesling wines, many factors must come together perfectly. In the winery, traditional methods are combined with modern concepts harmoniously. Most importantly, centuries of experience have proven that quality starts in the vineyard. Our Mosel valley vineyards have to be cultivated in such a way as to produce quality through the conscious reduction of grape mass. Thoughtful selections are made at harvest time by collecting only healthy, fully ripe grapes. In addition, the purity of Carl Schmitt-Wagner comes from nearly 6,000 ungrafted European vines, planted in 1896 , in the Maximiner Herrenberg Mosel valley vineyard. </p>
+					<div class="col-1of2" id="story">
+						<h4>Our Philosophy</h4>
+						<p>To produce great Riesling wines, many factors must come together perfectly. In the winery, traditional methods are combined with modern concepts harmoniously. Most importantly, centuries of experience have proven that quality starts in the vineyard. Our Mosel valley vineyards have to be cultivated in such a way as to produce quality through the conscious reduction of grape mass. Thoughtful selections are made at harvest time by collecting only healthy, fully ripe grapes. In addition, the purity of Carl Schmitt-Wagner comes from nearly 6,000 ungrafted European vines, planted in 1896 , in the Maximiner Herrenberg Mosel valley vineyard.</p>
 
-					<h4>Our Dedication to Quality</h4>
-					<p>While it is true that the quality starts at the vine, before the Riesling is filled in the bottle the grapes and juice must take a "long walk" through the winery's cellar. According to Winity tradition, the methods used for producing the Riesling wine include careful treatment with the wooden winepress, which was built in 1911, and a controlled fermentation in thick oak barrels. Once in the barrels, the least amount of intervention should be used as to not disturb the natural development of the young wines. Modern cellar technique is used only when necessary to create perfect harmony in the wine, this guarantees the wine customer healthy and fruitful wines. </p>
-				</div>
+						<h4>Our Dedication to Quality</h4>
+						<p>While it is true that the quality starts at the vine, before the Riesling is filled in the bottle the grapes and juice must take a "long walk" through the winery's cellar. According to Winity tradition, the methods used for producing the Riesling wine include careful treatment with the wooden winepress, which was built in 1911, and a controlled fermentation in thick oak barrels. Once in the barrels, the least amount of intervention should be used as to not disturb the natural development of the young wines. Modern cellar technique is used only when necessary to create perfect harmony in the wine, this guarantees the wine customer healthy and fruitful wines. </p>
+					</div>
 
-				<div class="col-1of2" id="about"> 				
-					<img src="imgs/about.jpg" height="500"/>	
-				</div>
+					<div class="col-1of2"> 				
+						<img src="imgs/about.jpg"/>	
+					</div>
 
-			</div>
+			</div><!--end of content class-->
+<!-- ********************End ofContent******************** -->
+
+
 	    </div><!--end of grid class-->
 
+		<!-- FOOTER -->
 		<div id ="footer">
 			<div class="grid">
 				<div class="col-1of1">
@@ -72,7 +83,8 @@
 					<p>COPYRIGHT © 2014 WINITY</p>
 				</div><!--end of col-1of2-->
 			</div>
-		</div><!--end of footer-->
+		</div>
+		<!--end of footer-->
 
 	</body>
 </html>

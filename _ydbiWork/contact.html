@@ -3,11 +3,14 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
 		<link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
 		<link href="css/grid.css" rel="stylesheet" type="text/css" media="screen" />
+		<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Quattrocento:700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans' rel='stylesheet' type='text/css'>
 		<title>Winity</title>
 
+		<!-- Google map code, retrieved from:https://developers.google.com/maps/tutorials/fundamentals/adding-a-google-map -->
 		<style>
 	      #map_canvas {
 	        width: 500px;
@@ -27,26 +30,29 @@
 	      }
 	      google.maps.event.addDomListener(window, 'load', initialize);
 	    </script>
-
-
+	    <!--End of Google Map Code -->
 	</head>
+
 	<body>
 		<div class="grid">
 
-				<header id="top">
-					<h1> Winity </h1>
-				</header>
-			
-				<div id="logo">
-					<span id="scart"><a href="cart.html"><img src="imgs/cart.png" ></a></span>
-					<ul>
-						<li><a href="log.html">Log in/Register</a></li>
-						<li><a href="guest.html">Guest order check</a></li>
-					</ul>
+			<!--Logo-->
+			<header id="top">
+				<a href="index.html"><h1> Winity </h1></a>
+			</header>
+			<!--End of logo-->
 
-				</div>
+			<!--LogIn-->
+			<div id="logo">
+				<span id="scart"><a href="cart.html"><img src="imgs/cart.png" ></a></span>
+				<ul>
+					<li><a href="log.html">Log in/Register</a></li>
+					<li><a href="guest.html">Guest order check</a></li>
+				</ul>
+			</div>
+			<!--End of LogIn-->
 				
-			<!--menu-->
+			<!--Menu-->
 			<nav class = "grid">
 				<div class="col-1of4">
 					<li><a href="index.html">Home</a></li>
@@ -60,27 +66,36 @@
 					<li><a href="about.html">About</a></li>
 				</div>
 				<div  class="col-1of4">
-					<li><a href="contact.html">Contact</a></li>
+					<li><a id="selected" href="contact.html">Contact</a></li>
 				</div>
 			</nav>
-		
+			<!--End of Menu-->
+
+
+
+
+<!-- ********************Content******************** -->
 				<h3 class="pageTitle">Contact Us</h3>
 				<div class="content">
-					<div class="col-1of2">
-						<p>Phone: +1 (604) 331-7900</p>
-						<p>Email: winitywine@winity.com</p>
-						<p>Address: 1633 Manitoba St
-							Vancouver, BC V5Y 0B8</p>
-							<br>						
-						<h4>Tasting Room Hours</h4>
-						<p>May - Octorber</p>
-						<p>Monday - Saturday: 11am - 6pm</p>
-						<p>Friday - Saturday: 11 am - 7 pm</p>
-						<p>Sunday : 11am - 5pm</p>
+					<div class="col-1of2" id="story">
+						<ol>
+							<li>Phone: +1 (604) 331-7900</li>
+							<li>Email: winitywine@winity.com</li>
+							<li>Address: 1633 Manitoba St
+								Vancouver, BC V5Y 0B8</li>
+						</ol>
 						
-						<p>November - April</p>
-						<p>Monday - Saturday: 11 am - 5 pm</p>
-						<p>Sunday: 11 am - 4 pm</p>
+						<h4>Tasting Room Hours</h4>
+						<ol>
+							<li>May - Octorber</li>
+							<li>Monday - Saturday: 11am - 6pm</li>
+							<li>Friday - Saturday: 11 am - 7 pm</li>
+							<li>Sunday : 11am - 5pm</li>
+							
+							<li>November - April</li>
+							<li>Monday - Saturday: 11 am - 5 pm</li>
+							<li>Sunday: 11 am - 4 pm</li>
+						</ol>
 
 					<div class="inputs">
 					<form method="post" action="" id="cmt">
@@ -96,11 +111,12 @@
 			    <div class="col-1of2">
 			    	<div id="map_canvas"></div>
 			    </div>
+<!-- ********************End of Content******************** -->
 
 		</div><!--end of grid class-->
-
         
 
+		<!-- FOOTER -->
 		<div id ="footer">
 			<div class="grid">
 				<div class="col-1of1">
@@ -112,9 +128,8 @@
 					<p>COPYRIGHT © 2014 WINITY</p>
 				</div><!--end of col-1of2-->
 			</div>
-		</div><!--end of footer-->
-
-
+		</div>
+		<!--end of footer-->
 
 	</body>
 </html>

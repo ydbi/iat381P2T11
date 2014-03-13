@@ -332,7 +332,7 @@ nav li{
 	min-width: 20%;
 	display: block;
 	text-align: center;
-	background: rgba(236, 225, 211, 0.8);
+	background: rgba(236, 225, 211, 0.4);
 	opacity: 0.8;
 	margin-left: 0px;
 	margin-bottom: 20px;
@@ -431,7 +431,7 @@ nav li{
 	padding-left: 20px;
 	width: 49%;
 	height: 220px;
-	background: rgba(236, 225, 211, 0.8);
+	background: rgba(236, 225, 211, 0.4);
 }
 
 #userBoxp1{
@@ -440,7 +440,7 @@ nav li{
 	width: 49%;
 	height: 220px;
 	text-align: left;
-	background: rgba(236, 225, 211, 0.8);
+	background: rgba(236, 225, 211, 0.4);
 }
 
 #userBoxp h4{
@@ -493,7 +493,7 @@ nav li{
 	padding:0px;
 /*	margin-left: 80px;*/
 	padding-bottom: 15px;
-	background: rgba(236, 225, 211, 0.8);
+	background: rgba(236, 225, 211, 0.4);
 }
 
 .gcheck label{
@@ -521,7 +521,7 @@ nav li{
 /*	margin-right: 40px;*/
 	padding-bottom: 10px;
 	min-height: 320px;
-	background: rgba(236, 225, 211, 0.8);
+	background: rgba(236, 225, 211, 0.4);
 }
 
 #userBox h4{
@@ -626,7 +626,7 @@ button:hover {
 
 #cbox{	
 	padding-bottom: 20px;
-	background: rgba(236, 225, 211, 0.8);
+	background: rgba(236, 225, 211, 0.4);
 }
 
 /* col stuff */
